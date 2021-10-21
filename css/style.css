@@ -189,7 +189,7 @@ section {
 }
 
 #section2__image--1 {
-  background-image: url("imgs/MeHagoTierra.jpeg");
+  background-image: url("../imgs/MeHagoTierra.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -198,7 +198,7 @@ section {
 }
 
 #section2__image--2 {
-  background-image: url("imgs/productos.jpeg");
+  background-image: url("../imgs/productos.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
