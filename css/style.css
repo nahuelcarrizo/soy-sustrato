@@ -11531,21 +11531,21 @@ section {
 }
 
 .carousel__img-1 {
-  background-image: url("imgs/carousel/carousel-1.jpg");
+  background-image: url("../imgs/carousel/carousel-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .carousel__img-2 {
-  background-image: url("imgs/carousel/carousel-2.jpg");
+  background-image: url("../imgs/carousel/carousel-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .carousel__img-3 {
-  background-image: url("imgs/carousel/carousel-3.jpg");
+  background-image: url("../imgs/carousel/carousel-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
