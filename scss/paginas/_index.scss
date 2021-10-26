@@ -70,9 +70,7 @@ section {
 @each $number in 1,2,3 {
     .carousel__img-#{$number} {
         background-image: url("/imgs/carousel/carousel-#{$number}.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        @include image-ss;
     }
 }
 .text__wrapper {
@@ -150,36 +148,28 @@ section {
 
 #section2__image--1 {
     background-image: url("../imgs/MeHagoTierra.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include image-ss;
     width: 99%;
     height: 100%
 }
 
 #section2__image--2 {
     background-image: url("../imgs/productos.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include image-ss;
     width: 99%;
     height: 100%
 }
 
 #section2__image--3 {
     background-image: url("../imgs/novedades.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include image-ss;
     width: 99%;
     height: 100%
 }
 
 #section2__image--4 {
     background-image: url("../imgs/FAQs.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include image-ss;
     width: 100%;
     height: 100%
 }

@@ -8,3 +8,9 @@ background: linear-gradient(
     rgba($secondary, 0.95)
 );
 }
+
+@mixin image-ss {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
