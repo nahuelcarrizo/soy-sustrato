@@ -1,7 +1,7 @@
 {
   "name": "soysustrato",
   "version": "1.0.0",
-  "description": "Proyecto Final Coder",
+  "description": "Proyecto Final CoderHouse: Soy sustrato, envases sustentables.",
   "main": "index.js",
   "dependencies": {
     "aos": "^2.3.4",
@@ -20,7 +20,8 @@
   "keywords": [
     "html",
     "css",
-    "sass"
+    "sass",
+    "bootstrap"
   ],
   "author": "Nahuel",
   "license": "ISC",
