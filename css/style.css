@@ -11871,7 +11871,7 @@ header {
 }
 
 .product__image--vianda {
-  background-image: url("../imgs/shop/vianda.png");
+  background-image: url("imgs/shop/vianda.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11881,7 +11881,7 @@ header {
 }
 
 .product__image--cubo {
-  background-image: url("../imgs/shop/cubo.png");
+  background-image: url("../imgs/shop/CUBO.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11891,7 +11891,7 @@ header {
 }
 
 .product__image--tapacubo {
-  background-image: url("../imgs/shop/tapacubo.png");
+  background-image: url("../../imgs/shop/tapacubo.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
