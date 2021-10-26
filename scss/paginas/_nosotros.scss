@@ -9,7 +9,7 @@
 
 @each $number in 1,2,3 {
     .nosotros__img-#{$number} {
-        background-image: url("/imgs/nosotros/nosotros-#{$number}.jpeg");
+        background-image: url("../imgs/nosotros/nosotros-#{$number}.jpeg");
         @include image-ss;
         width: 327px;
         height: 430px;

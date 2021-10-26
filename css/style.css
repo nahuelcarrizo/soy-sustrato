@@ -11394,7 +11394,7 @@ form h5, form .h5 {
 }
 
 .faqs__img-1 {
-  background-image: url("/imgs/faqs/faqs-1.jpg");
+  background-image: url("../imgs/faqs/faqs-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11403,7 +11403,7 @@ form h5, form .h5 {
 }
 
 .faqs__img-2 {
-  background-image: url("/imgs/faqs/faqs-2.jpg");
+  background-image: url("../imgs/faqs/faqs-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11412,7 +11412,7 @@ form h5, form .h5 {
 }
 
 .faqs__img-3 {
-  background-image: url("/imgs/faqs/faqs-3.jpg");
+  background-image: url("../imgs/faqs/faqs-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11772,7 +11772,7 @@ header {
 }
 
 .nosotros__img-1 {
-  background-image: url("/imgs/nosotros/nosotros-1.jpeg");
+  background-image: url("../imgs/nosotros/nosotros-1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11781,7 +11781,7 @@ header {
 }
 
 .nosotros__img-2 {
-  background-image: url("/imgs/nosotros/nosotros-2.jpeg");
+  background-image: url("../imgs/nosotros/nosotros-2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11790,7 +11790,7 @@ header {
 }
 
 .nosotros__img-3 {
-  background-image: url("/imgs/nosotros/nosotros-3.jpeg");
+  background-image: url("../imgs/nosotros/nosotros-3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11808,7 +11808,7 @@ header {
 }
 
 .product__image--vianda {
-  background-image: url("/imgs/shop/vianda.png");
+  background-image: url("../imgs/shop/vianda.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11818,7 +11818,7 @@ header {
 }
 
 .product__image--cubo {
-  background-image: url("/imgs/shop/cubo.png");
+  background-image: url("../imgs/shop/cubo.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11828,7 +11828,7 @@ header {
 }
 
 .product__image--tapacubo {
-  background-image: url("/imgs/shop/tapacubo.png");
+  background-image: url("../imgs/shop/tapacubo.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11838,7 +11838,7 @@ header {
 }
 
 .product__image--sobrem {
-  background-image: url("/imgs/shop/sobrem.png");
+  background-image: url("../imgs/shop/sobrem.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11848,7 +11848,7 @@ header {
 }
 
 .product__image--sobres {
-  background-image: url("/imgs/shop/sobres.png");
+  background-image: url("../imgs/shop/sobres.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11858,7 +11858,7 @@ header {
 }
 
 .product__image--sobrexs {
-  background-image: url("/imgs/shop/sobrexs.png");
+  background-image: url("../imgs/shop/sobrexs.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11868,7 +11868,7 @@ header {
 }
 
 .product__image--doypackxl {
-  background-image: url("/imgs/shop/doypackxl.png");
+  background-image: url("../imgs/shop/doypackxl.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11878,7 +11878,7 @@ header {
 }
 
 .product__image--doypackl {
-  background-image: url("/imgs/shop/doypackl.png");
+  background-image: url("../imgs/shop/doypackl.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11888,7 +11888,7 @@ header {
 }
 
 .product__image--doypackm {
-  background-image: url("/imgs/shop/doypackm.png");
+  background-image: url("../imgs/shop/doypackm.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
