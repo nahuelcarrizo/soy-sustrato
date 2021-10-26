@@ -11724,7 +11724,7 @@ section {
 #section3__image-1 {
   height: 415px;
   width: 305px;
-  background-image: url("../../imgs/manifiesto-2.jpg");
+  background-image: url("../imgs/manifiesto-2.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 30px;
@@ -11871,7 +11871,7 @@ header {
 }
 
 .product__image--vianda {
-  background-image: url("../../imgs/shop/vianda.png");
+  background-image: url("../imgs/shop/vianda.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11881,7 +11881,7 @@ header {
 }
 
 .product__image--cubo {
-  background-image: url("../../imgs/shop/cubo.png");
+  background-image: url("../imgs/shop/cubo.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11891,7 +11891,7 @@ header {
 }
 
 .product__image--tapacubo {
-  background-image: url("../../imgs/shop/tapacubo.png");
+  background-image: url("../imgs/shop/tapacubo.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11901,7 +11901,7 @@ header {
 }
 
 .product__image--sobrem {
-  background-image: url("../../imgs/shop/sobrem.png");
+  background-image: url("../imgs/shop/sobrem.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11911,7 +11911,7 @@ header {
 }
 
 .product__image--sobres {
-  background-image: url("../../imgs/shop/sobres.png");
+  background-image: url("../imgs/shop/sobres.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11921,7 +11921,7 @@ header {
 }
 
 .product__image--sobrexs {
-  background-image: url("../../imgs/shop/sobrexs.png");
+  background-image: url("../imgs/shop/sobrexs.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11931,7 +11931,7 @@ header {
 }
 
 .product__image--doypackxl {
-  background-image: url("../../imgs/shop/doypackxl.png");
+  background-image: url("../imgs/shop/doypackxl.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11941,7 +11941,7 @@ header {
 }
 
 .product__image--doypackl {
-  background-image: url("../../imgs/shop/doypackl.png");
+  background-image: url("../imgs/shop/doypackl.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11951,7 +11951,7 @@ header {
 }
 
 .product__image--doypackm {
-  background-image: url("../../imgs/shop/doypackm.png");
+  background-image: url("../imgs/shop/doypackm.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
