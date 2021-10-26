@@ -13,7 +13,6 @@
   @each $product in vianda,cubo,tapacubo,sobrem,sobres,sobrexs,doypackxl,doypackl,doypackm {
     .product__image--#{$product} {
         background-image: url("../imgs/shop/#{$product}.png");
-        // background-image: url("/imgs/faqs/faqs-#{$number}.png");
         background-repeat: no-repeat;
         @include image-ss;
         background-size: 340px 270px;
