@@ -14,3 +14,8 @@ background: linear-gradient(
     background-size: cover;
     background-position: center;
 }
+
+@mixin image-faqs-lg {
+    background-size:auto;
+    height: 450px;
+}

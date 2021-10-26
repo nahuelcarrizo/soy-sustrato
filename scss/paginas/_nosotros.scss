@@ -15,3 +15,19 @@
         height: 430px;
     }
 }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+    .nosotros__wrapper-1  {
+        padding-top: 25%;
+      }
+}
+  /* Medium devices (desktop) */
+  @media (min-width: 992px) {
+    .nosotros__wrapper-1  {
+        padding-top: 15%;
+      }
+    .nosotros-item {
+        padding-left: 5%;
+    }
+}

@@ -131,3 +131,16 @@
     color: white;
   }
   
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .contact {
+        padding-top: 25%;
+      }
+}
+  /* Medium devices (desktop) */
+  @media (min-width: 992px) {
+    .contact {
+        padding-top: 15%;
+      }
+}
+  

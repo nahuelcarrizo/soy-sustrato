@@ -20,3 +20,247 @@
         background-position: center;
     }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    html {
+      font-size: 1.2rem;
+    }
+  
+    .links-index {
+      width: auto;
+    }
+  
+    #section2__image--3 {
+      background-position: top;
+    }
+  }
+  /* Medium devices (desktop) */
+  @media (min-width: 992px) {
+    html {
+      font-size: 1.3rem;
+    }
+  
+    .index__section2-row {
+      display: grid;
+      grid-template-areas: "grid-area-1 grid-area-2 grid-area-2" "grid-area-3 grid-area-3 grid-area-4";
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 250px;
+      grid-row-gap: 2px;
+      position: relative;
+    }
+  
+    .index__section2-col1 {
+      grid-area: grid-area-1;
+      position: relative;
+    }
+  
+    .index__section2-col2 {
+      grid-area: grid-area-2;
+      position: relative;
+    }
+  
+    .index__section2-col3 {
+      grid-area: grid-area-3;
+      position: relative;
+    }
+  
+    .index__section2-col4 {
+      grid-area: grid-area-4;
+      position: relative;
+    }
+  
+    .image-fit {
+      width: 50%;
+    }
+  }
+  @font-face {
+    font-family: "Monotype Sabon";
+    src: url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.eot");
+    src: url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.woff") format("woff"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.svg#Monotype Sabon") format("svg");
+  }
+  @font-face {
+    font-family: "Sans";
+    src: url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot");
+    src: url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff") format("woff"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.svg#Sans") format("svg");
+  }
+  /* SHOP */
+  #section1-shp {
+    padding-top: 3%;
+    overflow: hidden;
+    height: 3450px;
+    margin-bottom: 30px;
+    font-family: "Monotype Sabon";
+  }
+  
+  .product__title--1 {
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 20px;
+  }
+  
+  .product__title--2 {
+    font-size: 1rem;
+    color: #413c3c;
+    padding-left: 20px;
+  }
+  
+  .product__image--vianda {
+    background-image: url("../imgs/shop/vianda.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--cubo {
+    background-image: url("../imgs/shop/cubo.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--tapacubo {
+    background-image: url("../imgs/shop/tapacubo.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--sobrem {
+    background-image: url("../imgs/shop/sobrem.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--sobres {
+    background-image: url("../imgs/shop/sobres.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--sobrexs {
+    background-image: url("../imgs/shop/sobrexs.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--doypackxl {
+    background-image: url("../imgs/shop/doypackxl.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--doypackl {
+    background-image: url("../imgs/shop/doypackl.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+  
+  .product__image--doypackm {
+    background-image: url("../imgs/shop/doypackm.png");
+    background-repeat: no-repeat;
+    background-size: 370px 305px;
+    background-position: center;
+  }
+   .share {
+     font-size: 0.8rem;
+     color:gray;
+     text-decoration: none;
+     padding-left: 20px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+   }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    #section1-shp {
+      height: 2250px;
+      margin-top: 27%;
+      margin-bottom: 13%;
+    }
+  
+    .product__image--vianda {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--cubo {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--tapacubo {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--sobrem {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--sobres {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--sobrexs {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--doypackxl {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--doypackl {
+      background-size: 352px 320px;
+    }
+  
+    .product__image--doypackm {
+      background-size: 352px 320px;
+    }
+  }
+  /* Medium devices (desktop) */
+  @media (min-width: 992px) {
+    #section1-shp {
+      height: 2000px;
+      margin-top: 10%;
+      margin-bottom: 15%;
+    }
+  
+    .product__image--vianda {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--cubo {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--tapacubo {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--sobrem {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--sobres {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--sobrexs {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--doypackxl {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--doypackl {
+      background-size: 430px 480px;
+    }
+  
+    .product__image--doypackm {
+      background-size: 430px 480px;
+    }
+  }
+  
