@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url(//db.onlinewebfonts.com/c/f6a976a2bc80fd96b873575f9b7dfee2?family=Monotype+Sabon);
+@import url(//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+// variables
+$yester-year: 'Yesteryear', cursive;
+$monotype: "Monotype Sabon";
+$manifiesto-font-1: 'Kaushan Script', cursive;
+$manifiesto-font-2: 'Cinzel', serif;
+$nosotros-font-1: 'Playfair Display', serif;
+
+#index__title--1 {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+#index__title--2 {
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+#section3__text-1 {
+    font-family: $manifiesto-font-1;
+    font-size: 2.4rem;
+}
+ .text {
+    font-family: $manifiesto-font-2;
+    color: #1c1d1d;
+        
+        &-2 {
+        font-size: 1.1rem;
+        letter-spacing: 3px;
+        font-weight: 300;
+        }
+        
+        &-3 {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            font-weight: 200;
+        }
+}
+
+#section3-index p {
+    font-size: 14px;
+}
+
+// nosotros
+#nosotros__text-1 {
+    font-family: $nosotros-font-1;
+    font-size: 3.3rem;
+}
+.nosotros__text-2 {
+    text-align: left;
+}
+
+// faqs
+
+#faqs__text-1 {
+    font-family: $nosotros-font-1;
+    font-size: 3rem;
+}
+
+// SHOP
+.product__title--1 {
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 20px;
+  }
+  
+  .product__title--2 {
+    font-size: 1rem;
+    color: #413c3c;
+    padding-left: 20px;
+  }

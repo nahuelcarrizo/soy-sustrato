@@ -1,0 +1,17 @@
+.nosotros__wrapper-1 {
+    padding: 7rem 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 49%;
+}
+
+@each $number in 1,2,3 {
+    .nosotros__img-#{$number} {
+        background-image: url("/imgs/nosotros/nosotros-#{$number}.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 327px;
+        height: 430px;
+    }
+}

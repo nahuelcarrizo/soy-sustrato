@@ -59,84 +59,109 @@
   </head>
   <body>
     <!--HEADER-->
-    <!--HEADER-->
-    <header>
-      <!--NAV BAR-->
-      <!--NAV BAR-->
-      <div class="container-fluid">
-        <div class="row" id="header__row">
-          <div class="col" id="menuhamburger">
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="navbar__position">
-              <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon border-0"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+    <div class="header__wrapper">
+      <div class="header-item">
+        <header>
+          <!--NAV BAR-->
+          <div class="container-fluid">
+            <div class="row" id="header__row">
+              <div class="col" id="menuhamburger">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                  <button class="navbar-toggler border-0 border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-6 z-index d-flex align-items-top justify-content-center p-0">
+                <a class="navbar-brand m-0" href="index.html">
+                  <img id="header-logo" src="../imgs/soysustrato-logonegro.png" alt="logo soy sustrato"/>
+                </a>
+              </div>
+              <div class="col z-index d-flex justify-content-end align-items-top p-0">
+                <ul class="navbar-list m-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-white" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                      </svg>
+                    </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="faqs.html">FAQs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link text-center text-white" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
-            </nav>
+            </div>
           </div>
-          <div class="col-6 z-index d-flex align-items-top justify-content-center p-0">
-            <a class="navbar-brand m-0" href="index.html">
-              <img id="header-logo" src="../imgs/soysustrato-logonegro.png" alt="logo soy sustrato"/>
-            </a>
-          </div>
-          <div class="col z-index d-flex justify-content-end align-items-top">
-            <ul class="navbar-list m-0">
-              <li class="nav-item">
-                <a class="nav-link text-center text-dark" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                  </svg>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-center text-dark" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </header>
       </div>
-    </header>
+    </div>
     <main>
-      <section class="blogsection section1-blg">  <!--bloque-->
-        <div class="blogsection_container container1-section1-blg">
-          <h1 class="blogsection__title title">Nosotros</h1>
-          <p class="blogsection__text--1 textoPrincipal">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            cupiditate perspiciatis quos! Nisi impedit in dicta nostrum
-            repellendus cum illo nam hic obcaecati doloribus, molestiae quas
-            provident? Sit fuga ipsam nulla, debitis nihil quasi esse omnis!
-            Minus cumque iste distinctio? Error iste voluptatem rem. Laudantium
-            consequatur expedita laborum perspiciatis quibusdam!
-          </p>
+      <section class="section1-nosotros">  <!--bloque-->
+        <div class="nosotros__wrapper-1">
+          <div>
+            <h1 id="nosotros__text-1">Nosotros.</h1>
+            <h2 class="text text-2">UN VIAJE AL ORIGEN DE LA SUSTENTABILIDAD</h2>
+            <h3 class="text text-3">Curated by Soy Sustrato</h3>
+            <p>
+            Nuestra historia es un viaje en búsqueda de la belleza. Un viaje en el tiempo y alrededor del mundo. Aprendemos por el camino, nos enriquecemos de culturas, vivencias, herencias y tradiciones. Atesoramos recuerdos y experiencias que desde hoy queremos compartir contigo.
+            #SoySustratoUniteAlCambio.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="nosotros__img-1 m-auto"></div>
+              <div class="text mt-1 nosotros__text-2 text-center">
+                <h4 class="text-3">21 de septiembre, 2021</h4>
+                <p class="text-2">Campaña SS 21</p>
+              </div>
+            </div>
+            <div class="col-12 mt-5">
+              <div class="nosotros__img-2 m-auto"></div>
+              <div class="text mt-1 nosotros__text-2 text-center">
+                <h4 class="text-3">12 de julio, 2021</h4>
+                <p class="text-2">Campaña SS sustentable</p>
+              </div>
+            </div>
+            <div class="col-12 mt-5">
+              <div class="nosotros__img-3 m-auto""></div>
+              <div class="text mt-1 nosotros__text-2 text-center"">
+                <h4 class="text-3">08 de mayo, 2021</h4>
+                <p class="text-2">Campaña SS 21</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <!--COMIENZA EL FOOTER-->
     <footer>
-      <div class="bg-dark text-white pl-2 pr-2 h-100">
+      <div id="footer-color" class="text-white pl-2 pr-2 h-100">
         <div class="container h-100">
           <div class="row pt-1 d-flex align-items-center justify-content-center h-100">
             <div class="col-6 d-flex align-items-center justify-content-start h-25 mb-2 mt-2">
               <a class="navbar-brand m-0" href="#">
-                <img id="header-logo" src="../imgs/soysustrato-logoblanco.png" alt="logo soy sustrato"/>
+                <img id="header-logo" src="imgs/soysustrato-logoblanco.png" alt="logo soy sustrato"/>
               </a>
             </div>
             <div class="col-6 h-100 d-flex align-items-center justify-content-evenly">
@@ -144,15 +169,15 @@
               <a class="text--white" href="#"><i class="fab fa-twitter"></i></a>
               <a class="text--white" href="#"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="col-12 h-50t">
-              <div class="accordion" id="accordionExample">
+            <div class="col-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item bg-transparent">
-                  <h2 class="accordion-header text--white" id="headingOne">
-                    <button class="accordion-button bg-transparent  text--white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Nosotros
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-transparent  text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      NOSOTROS
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                       <ul class="navbar-nav m-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
@@ -162,7 +187,26 @@
                           <a class="nav-link  text--white" href="#">Nuestros espacios</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link  text--white" href="#">Contactanos</a>
+                          <a class="nav-link  text--white" href="contacto.html">Contactanos</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      POLÍTICAS
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <a class="nav-link text--white" href="#">Aviso legal<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text--white" href="#">Política de devoluciones</a>
                         </li>
                       </ul>
                     </div>

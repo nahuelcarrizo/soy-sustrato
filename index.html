@@ -63,78 +63,93 @@
   </head>
   <body>
     <!--HEADER-->
-    <header>
-      <video playsinline autoplay muted loop poster="" id="bgvid" class="">
-        <source src="https://ugc.kizoa.app/klon1/o369809817_9941968.mp4" type="video/mp4"/>
-      </video>
-      <!--NAV BAR-->
-      <div class="container-fluid">
-        <div class="row" id="header__row">
-          <div class="col" id="menuhamburger">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar__position">
-              <button class="navbar-toggler border-0 border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link text--white" href="index.html">Home<span class="sr-only">(current)</span></a>
+    <div class="header__wrapper">
+      <div class="header-item">
+        <header>
+          <!--NAV BAR-->
+          <div class="container-fluid">
+            <div class="row" id="header__row">
+              <div class="col" id="menuhamburger">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar__position">
+                  <button class="navbar-toggler border-0 border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="shop.html">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="faqs.html">FAQs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-6 z-index d-flex align-items-top justify-content-center p-0">
+                <a class="navbar-brand m-0" href="index.html">
+                  <img id="header-logo" src="imgs/soysustrato-logoblanco.png" alt="logo soy sustrato"/>
+                </a>
+              </div>
+              <div class="col z-index d-flex justify-content-end align-items-top p-0">
+                <ul class="navbar-list m-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-white" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                      </svg>
+                    </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text--white" href="shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text--white" href="faqs.html">FAQs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text--white" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link text-center text-white" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
-            </nav>
+            </div>
           </div>
-          <div class="col-6 z-index d-flex align-items-top justify-content-center p-0">
-            <a class="navbar-brand m-0" href="index.html">
-              <img id="header-logo" src="imgs/soysustrato-logoblanco.png" alt="logo soy sustrato"/>
-            </a>
-          </div>
-          <div class="col z-index d-flex justify-content-end align-items-top">
-            <ul class="navbar-list m-0">
-              <li class="nav-item">
-                <a class="nav-link text-center text-white" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                  </svg>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-center text-white" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                  </svg>
-                </a>
-              </li>
-            </ul>
+        </header>
+      </div>
+    </div>
+    <main id="mainContent">
+      <!-- INICIO contenido_index -->
+      <!-- carousel -->
+      <section id="section1-index">
+        <div id="carousel-wrapper">
+          <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel-2" class="carousel-inner">
+              <div class="carousel-item active carousel-3">
+                <div class="carousel__img-1 carousel-img d-block w-100"></div>
+              </div>
+              <div class="carousel-item carousel-3">
+                <div class="carousel__img-2  carousel-img d-block w-100"></div>
+              </div>
+              <div class="carousel-item carousel-3">
+                <div class="carousel__img-3  carousel-img d-block w-100"></div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    <main>
-      <!-- Inicio contenido index -->
-      <!-- 1ra sección -->
-      <section id="section1-index">
-        <!-- contenedor flex -->
-        <div class="container-fluid">
-          <div class="d-flex flex-column container1-section1 text-center align-items-center justify-content-center pt-3">
-            <div class="pb-2">
-              <h1 id="index__title-2">
+        <div class="text__wrapper">
+          <div class="d-flex flex-column container1-section1 text-center align-items-center justify-content-center">
+            <div class="pb-2 text__wrapper--content">
+              <h1 id="index__title--1">
                 Envases sustentables, biodegradables<br />
                 & compostables
               </h2>
-              <h4 id="index__title-4">se parte del cambio</h4>
+              <h4 id="index__title--2">se parte del cambio</h4>
             </div>
-            <div class="cell2-section1">
-              <a href="shop.html" class="button-sumate">SHOP NOW</a>
+            <div id="container__button--shopnow">
+              <a href="shop.html" id="button--shopnow">SHOP NOW</a>
             </div>
           </div>
         </div>
@@ -143,28 +158,28 @@
       <section id="section2-index">
         <div class="container-fluid" id="section2__container">
           <div class="row h-100 inline-flex">
-            <div class="col-12 col-lg-4 mt-1 mb-1 p-0">
+            <div class="col-12 col-lg-4 mt-1 p-0">
               <div class="reveal zoom d-flex align-end" id="section2__image--1">
                 <div class="section2__text--p">
                   <a href="faqs.html" class="links-index">#MeHagoTierra </a>
                 </div>
               </div>
             </div>  
-            <div class="col-12 col-lg-8 mt-1 mb-1 p-0">
+            <div class="col-12 col-lg-8 mt-1 p-0">
               <div class="reveal zoom d-flex align-end" id="section2__image--2">
                 <div class="section2__text--p">
                     <a href="shop.html" class="links-index">Todos los productos</a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-8 mt-1 mb-1 ml-1 p-0">
+            <div class="col-12 col-lg-8 mt-1 ml-1 p-0">
               <div class="d-flex align-end reveal zoom" id="section2__image--3">
                 <div class="section2__text--p">
                   <a href="nosotros.html" class="links-index">Nosotros</a>
                 </div>
               </div> 
             </div>
-            <div class="col-12 col-lg-4 mt-1 mb-1 ml-1 p-0">
+            <div class="col-12 col-lg-4 mt-1 ml-1 p-0">
               <div class="d-flex align-end reveal zoom" id="section2__image--4">
                 <div class="section2__text--p">
                   <a href="contacto.html" class="links-index">Contactanos</a>
@@ -174,10 +189,40 @@
           </div>
         </div>
       </section>
+      <section id="section3-index">
+        <div class="row justify-content-center" id="section3__container">
+          <div class="col-12" id="section3__image-1"></div>
+          <div class="col-12">
+            <div id="section3__manifiesto">
+              <h2 id="section3__text-1">Manifiesto</h2>
+              <h3 class="text-2">
+                NUESTRO COMPROMISO PARA UN MUNDO MEJOR: 
+                LA INSACIABLE BÚSQUEDA DE LA BELLEZA 
+                CONSUMIENDO LO MÍNIMO Y OTORGANDO UNA
+                LARGA VIDA A LAS PIEZAS DE CALIDAD.
+              </h3>
+              <p class="mt-4">
+                Cada año, con el crecimiento de las ciudades, se vuelven más valiosos
+                los pequeños gestos de las grandes marcas en sintonía con la
+                preservación del ambiente. En este sentido,nuestro packaging también 
+                puede comunicar un mensaje sustentable.
+              </p>
+              <p>Los ejes del diseño sustentable tienen como objetivo
+                cumplir con las 3R del mundo ecológico: <span class="text-success">Reciclar, Reutilizar, Reducir</span>.
+                Con esta meta, los productos presentados con conciencia verde tenderán a
+                ofrecer la posibilidad de reducir el desperdicio de embalaje, reutilizar los envases y/o reciclarlos
+              </p>
+              <div>
+                <img id="section3__image-2" src="/imgs/lapiz.webp">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!--COMIENZA EL FOOTER-->
     <footer>
-      <div class="bg-dark text-white pl-2 pr-2 h-100">
+      <div id="footer-color" class="text-white pl-2 pr-2 h-100">
         <div class="container h-100">
           <div class="row pt-1 d-flex align-items-center justify-content-center h-100">
             <div class="col-6 d-flex align-items-center justify-content-start h-25 mb-2 mt-2">
@@ -190,15 +235,15 @@
               <a class="text--white" href="#"><i class="fab fa-twitter"></i></a>
               <a class="text--white" href="#"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="col-12 h-50t">
-              <div class="accordion" id="accordionExample">
+            <div class="col-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item bg-transparent">
-                  <h2 class="accordion-header text--white" id="headingOne">
-                    <button class="accordion-button bg-transparent  text--white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Nosotros
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-transparent  text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      NOSOTROS
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                       <ul class="navbar-nav m-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
@@ -208,7 +253,26 @@
                           <a class="nav-link  text--white" href="#">Nuestros espacios</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link  text--white" href="#">Contactanos</a>
+                          <a class="nav-link  text--white" href="contacto.html">Contactanos</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      POLÍTICAS
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <a class="nav-link text--white" href="#">Aviso legal<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text--white" href="#">Política de devoluciones</a>
                         </li>
                       </ul>
                     </div>

@@ -1,0 +1,233 @@
+@use '../custom' as *;
+@use '../componentes/mixins' as *;
+@use '../componentes/globals';
+
+
+
+/* INDEX SECTION */
+section {
+    width: 100%;
+}
+
+.mainContent {
+    display: block;
+    min-height: 300px;
+}
+
+.carousel-wrapper {
+    position: relative;
+}
+#carousel-1 {
+    height: 99vh;
+    position: relative;
+    overflow: hidden;
+    // width: 100%;
+    // height: 100vh;
+}
+
+#carousel-2::after {
+    transform: scaleX(1);
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 1;
+    transition: transform 0s linear 0s;
+    transform-origin: 0 50%;
+}
+.carousel-3::before {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.62) 100%);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+ .carousel-3 {
+     height: 100vh;
+ }
+
+.carousel-3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #000;
+    opacity: 0.08;
+}
+.carousel-img {
+    height: 100vh;
+}
+
+@each $number in 1,2,3 {
+    .carousel__img-#{$number} {
+        background-image: url("/imgs/carousel/carousel-#{$number}.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.text__wrapper {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1300px;
+    width: 100%;
+    overflow: hidden;
+
+    &--content {
+        padding-top: 70px;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+        padding: 20px 0;
+        z-index: 4;
+    }
+}
+
+
+
+  /* 1ra sección */
+
+// variable
+#section1-index h1, #section1-index .h1, #section1-index h3, #section1-index .h3, #section1-index a {
+    color: whitesmoke; 
+}
+
+// variable
+.container1-section1 {
+    height: 50vh;
+    font-family: "Monotype Sabon";
+    line-height: 3.9rem;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+
+
+  /* 2da sección */
+#section2-index {
+    width: 100%;
+    height: 1400px;
+    margin-top: 2px;
+    margin-bottom: 0.3%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#section2__container {
+    height: 100%;
+    padding-right: 0;
+}
+
+#section2__container .row div {
+    align-items: flex-end;
+}
+
+.links-index {
+    color: whitesmoke;
+    font-size: 1.6rem;
+    font-family: "Monotype Sabon";
+    text-decoration: none;
+}
+
+.links-index:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+#section2__image--1 {
+    background-image: url("../imgs/MeHagoTierra.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 100%
+}
+
+#section2__image--2 {
+    background-image: url("../imgs/productos.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 100%
+}
+
+#section2__image--3 {
+    background-image: url("../imgs/novedades.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 100%
+}
+
+#section2__image--4 {
+    background-image: url("../imgs/FAQs.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%
+}
+
+.links-index:hover {
+    text-decoration: underline;
+}
+
+.cell2-container1-section2 {
+    background-color: gray;
+}
+.section2__text--p {
+    padding-left: 20px;
+}
+
+// 3ra sección
+
+#section3-index {
+    margin: 0 0 50px 0;
+}
+
+#section3__container {
+    padding: 55px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#section3__image-1 {
+    height: 415px;
+    width: 305px;
+    background-image: url("/imgs/manifiesto-2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+#section3__manifiesto {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#section3__text-2{
+    display: block;
+    margin: 20px 0;
+}
+
+#section3__image-2 {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}

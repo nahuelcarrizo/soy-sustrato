@@ -1,0 +1,20 @@
+// index
+.reveal {
+    position: relative;
+    opacity: 0;
+    transition: all 1.7s ease;
+    transition: transform 3s;
+}
+
+.reveal.active {
+    opacity: 1;
+    transition: opacity 1.7s;
+}
+.zoom {
+    transition: transform .2s; 
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
