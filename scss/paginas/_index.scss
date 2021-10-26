@@ -69,7 +69,7 @@ section {
 
 @each $number in 1,2,3 {
     .carousel__img-#{$number} {
-        background-image: url("/imgs/carousel/carousel-#{$number}.jpg");
+        background-image: url("imgs/carousel/carousel-#{$number}.jpg");
         @include image-ss;
     }
 }
