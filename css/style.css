@@ -22910,7 +22910,7 @@ textarea.form-control-lg {
   white-space: normal;
   opacity: 0;
   animation: fade-in 1.5s ease 1.5s forwards;
-  animation-delay: 3.6s;
+  animation-delay: 3.4s;
 }
 
 #button--shopnow:hover {
@@ -23337,7 +23337,7 @@ hr {
 }
 
 .index__image-1 {
-  animation: 2.5s ease-in 0s forwards;
+  animation: 2.5s ease-in 1s forwards;
   animation-name: zoom-fade;
   opacity: 0;
   display: block;
@@ -23418,13 +23418,13 @@ hr {
   animation: 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
   animation-name: rise-up;
   opacity: 0;
-  animation-delay: 1.4s;
+  animation-delay: 1.1s;
 }
 .animation__up-4 {
   animation: 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
   animation-name: rise-up;
   opacity: 0;
-  animation-delay: 2.1s;
+  animation-delay: 1.4s;
 }
 
 /* 2da sección */
