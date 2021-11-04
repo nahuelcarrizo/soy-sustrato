@@ -1,4 +1,5 @@
 @use '../custom' as *;
+@import 'tipografia';
 //MIXIN GRADIANTE
 
 @mixin gradient {
@@ -18,4 +19,26 @@ background: linear-gradient(
 @mixin image-faqs-lg {
     background-size:auto;
     height: 450px;
+}
+
+@mixin text-3 {
+    font-family: $monotype;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 44px;
+    font-size: 2.2rem;
+}
+
+@mixin text-4 {
+    font-family: $open-sans;
+    font-size: .8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+}
+
+@mixin animation-up {
+    animation: 1.5s cubic-bezier(.26,.54,.32,1) forwards;
+    animation-name: rise-up;
+    opacity: 0;
 }

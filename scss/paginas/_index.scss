@@ -5,115 +5,112 @@
 
 
 /* INDEX SECTION */
-section {
-    width: 100%;
-}
 
 .mainContent {
     display: block;
     min-height: 300px;
 }
 
-.carousel-wrapper {
+#home--section1 {
     position: relative;
 }
-#carousel-1 {
-    height: 99vh;
-    position: relative;
+.image__wrapper-1 {
+    height:70vh;
     overflow: hidden;
-    // width: 100%;
-    // height: 100vh;
+    background-color: black;
 }
 
-#carousel-2::after {
-    transform: scaleX(1);
-    content: "";
-    position: absolute;
-    background: #ffffff;
-    bottom: 0;
-    left: 0;
-    height: 2px;
+// Imagen inicial
+.index__image-1 {
+    animation: 2.5s ease-in 0s forwards;
+    animation-name: zoom-fade;
+    opacity: 0;
+    display: block;
     width: 100%;
+    height: 100%;
+    position: relative;
     z-index: 1;
-    transition: transform 0s linear 0s;
-    transform-origin: 0 50%;
-}
-.carousel-3::before {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.62) 100%);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 3;
-}
- .carousel-3 {
-     height: 100vh;
- }
-
-.carousel-3::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-    background-color: #000;
-    opacity: 0.08;
-}
-.carousel-img {
-    height: 100vh;
+    object-fit: cover;
 }
 
-@each $number in 1,2,3 {
-    .carousel__img-#{$number} {
-        background-image: url("../imgs/carousel/carousel-#{$number}.jpg");
-        @include image-ss;
+@keyframes zoom-fade{
+    0%{
+      opacity:0;
+      transform:scale(1.25);
     }
-}
+    to{
+      opacity:1;
+      transform:scale(1);
+    }
+  }
+
+// texto en index
 .text__wrapper {
-    position: absolute;
-    top: 18%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    margin: auto;
+    margin-top: 18%;
     padding: 0 20px;
-    max-width: 1300px;
-    width: 100%;
     overflow: hidden;
+}
+#home--section1 .container {
+    top: 0;
+    padding-top: 28vh;
+    left: 0;
+    max-width: 1300px;
+    color: whitesmoke
+}
+.home__text-2 {
+    opacity: 1;
+    overflow: hidden;
+}
+#home__text-3 {
+    padding: 20px 0;
+    z-index: 4;
+    opacity: 0;
+    @include text-3;
+}
+#home__text-4 {
+    padding: 5px 0;
+    z-index: 4;
+    opacity: 0;
+    @include text-4;
+}
 
-    &--content {
-        padding-top: 70px;
-        vertical-align: middle;
-        text-align: center;
-        position: relative;
-        padding: 20px 0;
-        z-index: 4;
+.animation__up {
+    
+    &-1 {
+        @include animation-up;
+        animation-delay: .3s;
+    }
+
+    &-2 {
+        @include animation-up;
+        animation-delay: 1s;
+    }
+}
+@keyframes rise-up{
+    0%{
+        opacity:0;
+        transform:translateY(120%);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0%);
     }
 }
 
+#index__title-1 {
+
+}
+#index__title-2 {
+    
+}
 
 
   /* 1ra sección */
 
 // variable
-#section1-index h1, #section1-index .h1, #section1-index h3, #section1-index .h3, #section1-index a {
+#home--section1 h1, #home--section1 h3, #home--section1 a {
     color: whitesmoke; 
 }
-
-// variable
-.container1-section1 {
-    height: 50vh;
-    font-family: "Monotype Sabon";
-    line-height: 3.9rem;
-    letter-spacing: 0.25rem;
-    text-transform: uppercase;
-}
-
-
 
   /* 2da sección */
 #section2-index {
