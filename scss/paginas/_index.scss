@@ -1,26 +1,50 @@
 @use '../custom' as *;
 @use '../componentes/mixins' as *;
 @use '../componentes/globals';
+@use '../componentes/animaciones';
 
-
-
-/* INDEX SECTION */
+// HOME
 
 .mainContent {
     display: block;
     min-height: 300px;
 }
 
+// sección 1
+
 #home--section1 {
     position: relative;
 }
+
+
+// Imagen inicial
+
 .image__wrapper-1 {
     height:70vh;
     overflow: hidden;
     background-color: black;
 }
-
-// Imagen inicial
+.image__wrapper-1::before {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.62) 100%);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.image__wrapper-1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #000;
+    opacity: 0.1;
+}
 .index__image-1 {
     animation: 2.5s ease-in 0s forwards;
     animation-name: zoom-fade;
@@ -31,20 +55,12 @@
     position: relative;
     z-index: 1;
     object-fit: cover;
+    
 }
 
-@keyframes zoom-fade{
-    0%{
-      opacity:0;
-      transform:scale(1.25);
-    }
-    to{
-      opacity:1;
-      transform:scale(1);
-    }
-  }
 
-// texto en index
+// Text principal
+
 .text__wrapper {
     margin-top: 18%;
     padding: 0 20px;
@@ -52,30 +68,52 @@
 }
 #home--section1 .container {
     top: 0;
-    padding-top: 28vh;
+    // padding-top: 28vh;
     left: 0;
+    padding: 18vh 1.3rem 0 1.3rem;
     max-width: 1300px;
-    color: whitesmoke
+    color: whitesmoke;
+
 }
 .home__text-2 {
     opacity: 1;
     overflow: hidden;
+
 }
 #home__text-3 {
-    padding: 20px 0;
-    z-index: 4;
     opacity: 0;
-    @include text-3;
+    font-family: $oswald;
+    letter-spacing: 2.3px;
+    font-size: 2.5rem;
+    z-index: 4;
 }
 #home__text-4 {
-    padding: 5px 0;
+    font-family: $oswald;
+    font-size: 1.17rem;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    padding: 6px 0;
+    opacity: 0;
+    z-index: 4;
+}
+
+#home__text-6 {
+    font-family: $oswald;
+    font-size: 1.8rem;
     z-index: 4;
     opacity: 0;
-    @include text-4;
+    letter-spacing: 3.9px;
+    font-weight: 200;
+}
+#home__text-5 {
+    font-family: $oswald;
+    font-size: 1.9rem;
+    z-index: 4;
+    opacity: 0;
+    letter-spacing: 1.9px;
 }
 
 .animation__up {
-    
     &-1 {
         @include animation-up;
         animation-delay: .3s;
@@ -83,36 +121,22 @@
 
     &-2 {
         @include animation-up;
-        animation-delay: 1s;
+        animation-delay: 1.2s;
     }
-}
-@keyframes rise-up{
-    0%{
-        opacity:0;
-        transform:translateY(120%);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0%);
-    }
-}
 
-#index__title-1 {
-
-}
-#index__title-2 {
+    &-3 {
+        @include animation-up;
+        animation-delay: 2.2s;
+    }
     
+    &-4 {
+        @include animation-up;
+        animation-delay: 3.2s;
+    }
 }
 
 
-  /* 1ra sección */
-
-// variable
-#home--section1 h1, #home--section1 h3, #home--section1 a {
-    color: whitesmoke; 
-}
-
-  /* 2da sección */
+/* 2da sección */
 #section2-index {
     width: 100%;
     height: 1400px;
