@@ -22910,7 +22910,7 @@ textarea.form-control-lg {
   white-space: normal;
   opacity: 0;
   animation: fade-in 1.5s ease 1.5s forwards;
-  animation-delay: 3.5s;
+  animation-delay: 3.6s;
 }
 
 #button--shopnow:hover {
@@ -23357,7 +23357,7 @@ hr {
 #home--section1 .container {
   top: 0;
   left: 0;
-  padding: 18vh 1.3rem 0 1.3rem;
+  padding: 18vh 1rem 0 1rem;
   max-width: 1300px;
   color: whitesmoke;
 }
@@ -23371,15 +23371,15 @@ hr {
   opacity: 0;
   font-family: "Oswald", sans-serif;
   letter-spacing: 2.3px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   z-index: 4;
 }
 
 #home__text-4 {
   font-family: "Oswald", sans-serif;
-  font-size: 1.17rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   padding: 6px 0;
   opacity: 0;
   z-index: 4;
@@ -23390,7 +23390,7 @@ hr {
   font-size: 1.8rem;
   z-index: 4;
   opacity: 0;
-  letter-spacing: 3.9px;
+  letter-spacing: 2.5px;
   font-weight: 200;
 }
 
@@ -23406,25 +23406,25 @@ hr {
   animation: 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
   animation-name: rise-up;
   opacity: 0;
-  animation-delay: 0.3s;
+  animation-delay: 0.1s;
 }
 .animation__up-2 {
   animation: 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
   animation-name: rise-up;
   opacity: 0;
-  animation-delay: 1.2s;
+  animation-delay: 0.7s;
 }
 .animation__up-3 {
   animation: 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
   animation-name: rise-up;
   opacity: 0;
-  animation-delay: 2.2s;
+  animation-delay: 1.4s;
 }
 .animation__up-4 {
   animation: 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
   animation-name: rise-up;
   opacity: 0;
-  animation-delay: 3.2s;
+  animation-delay: 2.1s;
 }
 
 /* 2da sección */
