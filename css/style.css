@@ -23370,8 +23370,8 @@ hr {
 #home__text-3 {
   opacity: 0;
   font-family: "Oswald", sans-serif;
-  letter-spacing: 2.3px;
-  font-size: 2rem;
+  letter-spacing: 3px;
+  font-size: 2.2rem;
   z-index: 4;
 }
 
@@ -23385,6 +23385,14 @@ hr {
   z-index: 4;
 }
 
+#home__text-5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  z-index: 4;
+  opacity: 0;
+  letter-spacing: 2.5px;
+}
+
 #home__text-6 {
   font-family: "Oswald", sans-serif;
   font-size: 1.8rem;
@@ -23394,12 +23402,8 @@ hr {
   font-weight: 200;
 }
 
-#home__text-5 {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.9rem;
-  z-index: 4;
-  opacity: 0;
-  letter-spacing: 1.9px;
+.pl-2 {
+  padding-left: 17px;
 }
 
 .animation__up-1 {
