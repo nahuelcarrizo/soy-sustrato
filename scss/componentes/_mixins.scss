@@ -31,3 +31,9 @@ background: linear-gradient(
 @mixin animation-fade {
     animation: fade-in 1.5s ease 1.5s forwards;
 }
+
+@mixin animation-zoom {
+    animation: 2.5s ease-in 1s forwards;
+    animation-name: zoom-fade;
+    opacity: 0;
+}

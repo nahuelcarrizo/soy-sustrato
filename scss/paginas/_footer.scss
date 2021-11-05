@@ -1,13 +1,34 @@
+@use '../componentes/tipografia' as *;
 
-
-
-.footer a {
+footer {
+    font-family: $open-sans;
+}
+footer a {
     color: white;
-    line-height: 16.8px;
+    line-height: 12px !important;
+    font-size: .5rem;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+}
+footer p {
+    font-size: .7rem;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
 }
 
+#footer-sumate {
+    font-size: .5rem;
+    letter-spacing: 1.2px;
+}
+footer span {
+    margin-bottom: 0.5rem;
+}
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
 .footer a i {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-left: 1rem;
 }
 #footer-color {
@@ -18,7 +39,51 @@
     padding-bottom: 1.5rem;
     justify-content: center;
 }
-
+.footer__newsletter {
+    position: relative;
+}
+.footer__newsletter-input {
+    background-color: transparent;
+    border-color: rgb(58, 58, 58);
+    border-width: 0.8px;
+    width: 250px;
+    padding: 8px 10px 0 45px;
+}
+input::placeholder{
+    opacity: 1;
+    color: white;
+    font-size: .5rem;
+    letter-spacing: .3px;
+}
+.footer__newsletter-btn {
+    border: 1px dotted transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 46px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    overflow: visible;
+    background: 0 0;
+}
+.icon-email {
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+    color: white;
+}
+.icon-email > path:nth-child(1) {
+    fill: none;
+    stroke-width: 3px;
+    stroke: currentColor;
+    stroke-linecap: miter;
+    stroke-linejoin: miter;
+}
 hr {
     color: white;
 }
@@ -44,3 +109,16 @@ hr {
     justify-content: center;
 }
 
+.d-yes {
+    display: none;
+}
+@media (min-width: 768px) {
+
+    #accordion-footer{
+        display: none;
+    }
+    .d-yes {
+        display: flex;
+        flex-direction: column;
+    }
+}
