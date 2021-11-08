@@ -5316,7 +5316,7 @@ textarea.form-control-lg {
   background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23111111'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
   border: 0;
   border-radius: 0.25rem;
-  opacity: 0.5;
+  opacity: 1;
 }
 .btn-close:hover {
   color: #111111;
@@ -6168,7 +6168,7 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: padding-box;
   outline: 0;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .offcanvas {
@@ -6219,7 +6219,7 @@ textarea.form-control-lg {
 .offcanvas-start {
   top: 0;
   left: 0;
-  width: 400px;
+  width: 300px;
   border-right: 1px solid rgba(17, 17, 17, 0.2);
   transform: translateX(-100%);
 }
@@ -6227,7 +6227,7 @@ textarea.form-control-lg {
 .offcanvas-end {
   top: 0;
   right: 0;
-  width: 400px;
+  width: 300px;
   border-left: 1px solid rgba(17, 17, 17, 0.2);
   transform: translateX(100%);
 }
@@ -16910,7 +16910,7 @@ textarea.form-control-lg {
   background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23111111'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
   border: 0;
   border-radius: 0.25rem;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .btn-close:hover {
@@ -17833,7 +17833,7 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: padding-box;
   outline: 0;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -17887,7 +17887,7 @@ textarea.form-control-lg {
 .offcanvas-start {
   top: 0;
   left: 0;
-  width: 400px;
+  width: 300px;
   border-right: 1px solid rgba(17, 17, 17, 0.2);
   transform: translateX(-100%);
 }
@@ -17895,7 +17895,7 @@ textarea.form-control-lg {
 .offcanvas-end {
   top: 0;
   right: 0;
-  width: 400px;
+  width: 300px;
   border-left: 1px solid rgba(17, 17, 17, 0.2);
   transform: translateX(100%);
 }
@@ -23686,10 +23686,6 @@ header {
   flex-direction: row;
 }
 
-#menuhamburger {
-  width: 78px;
-}
-
 #header-logo {
   width: 130px;
   z-index: 99;
@@ -23706,6 +23702,25 @@ header {
   padding-left: 0;
   display: flex;
   flex-direction: row;
+}
+
+.zindex-offcanvas {
+  z-index: 1065;
+}
+
+.offcanvas__btn-close {
+  padding-right: 1rem;
+}
+
+.nav-item {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #f5f5ed;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .nosotros__wrapper-1 {

@@ -71,27 +71,32 @@
             <div class="row" id="header__row">
               <div class="col" id="menuhamburger">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar__position">
-                  <button class="navbar-toggler border-0 border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler border-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                      <li class="nav-item active">
-                        <a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="shop.html">Shop</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="faqs.html">FAQs</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
-                      </li>
-                    </ul>
+                  </button>       
+                  <div class="offcanvas offcanvas-start zindex-offcanvas flex-column" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                    <div class="offcanvas__btn-close d-flex justify-content-end pt-3 pb-1">
+                      <button type="button" class="btn-close text-reset align-self-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                      <div class="offcanvas-body p-4">
+                      <ul class="navbar__mobile navbar-nav m-auto mt-2 mt-lg-0 position-relative">
+                        <li class="nav-item pt-1 pb-1 active">
+                          <a class="nav-link  text-dark" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item pt-1 pb-1">
+                          <a class="nav-link  text-dark" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item pt-1 pb-1">
+                          <a class="nav-link  text-dark" href="faqs.html">FAQs</a>
+                        </li>
+                        <li class="nav-item pt-1 pb-1">
+                          <a class="nav-link  text-dark" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item pt-1 pb-1">
+                          <a class="nav-link  text-dark" href="contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </nav>
               </div>

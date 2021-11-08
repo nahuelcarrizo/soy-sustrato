@@ -30,8 +30,19 @@ $accordion-icon-active-color:             white;
 // scss-docs-end accordion-variables
 //
 
+// offcanvas
+// backdrop offcanvas
 
 
-//IMPORTAR BOOTSTRAP
+// $modal-backdrop-opacity:            0;
+// close button
+$btn-close-opacity:          1;
+
+// scss-docs-start offcanvas-variables
+$offcanvas-transition-duration:     .4s;
+$offcanvas-horizontal-width: 300px;
+// scss-docs-end offcanvas-variables
+
+  //IMPORTAR BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 

@@ -42,7 +42,7 @@ header {
 }
 
 #menuhamburger {
-    width: 78px;
+    // width: 78px;
 }
 
 #header-logo {
@@ -63,4 +63,21 @@ header {
     flex-direction: row;
 }
 
-
+.zindex-offcanvas {
+    z-index: 1065;
+}
+.offcanvas__btn-close{
+    padding-right: 1rem;
+}
+.nav-item {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #f5f5ed;
+}
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+}
+// .nav-link {
+//     padding-top:
+// }
