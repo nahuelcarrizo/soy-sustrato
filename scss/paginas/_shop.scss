@@ -8,18 +8,110 @@
     margin-bottom: 30%;
     font-family: "Monotype Sabon";
 }
+.product__container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  color: rgb(36, 39, 42);
+  font-family: $open-sans;
+  font-size: 16px;
+  height: 587.467px;
+  justify-content: space-between;
+  letter-spacing: 0.8px;
+  line-height: 27.2px;
+  min-width: 100%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.product__link {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  text-decoration: rgb(36, 39, 42);
+  text-decoration-color: rgb(36, 39, 42);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  width: 349.917px;
+}
+.product__link img {
+  border-bottom-color: rgb(36, 39, 42);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(36, 39, 42);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(36, 39, 42);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(36, 39, 42);
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(36, 39, 42);
+  display: inline-block;
+  font-family: "Gill sans", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 27.2px;
 
+  object-fit: cover;
+  text-align: center;
+  vertical-align: middle;
 
-  @each $product in vianda,cubo,tapacubo,sobrem,sobres,sobrexs,doypackxl,doypackl,doypackm {
-    .product__image--#{$product} {
-        background-image: url("../../imgs/shop/#{$product}.png");
-        background-repeat: no-repeat;
-        @include image-ss;
-        background-size: 340px 270px;
-        background-position: center;
-    }
+}
+.img-vianda {
+  width: 100%;
+  min-width: 77.75px;
+  height: 100%;
+  position: relative;
+}
+.product__link h5 {
+  box-sizing: border-box;
+  color: rgb(36, 39, 42);
+  font-family: "Gill sans", Arial, sans-serif;
+  font-size: 19.2px;
+  font-weight: 500;
+  letter-spacing: 0.96px;
+  line-height: 26.8833px;
+  margin-bottom: 0px;
+  margin-top: 28px;
+  text-align: center;
+}
+.product__link h4 {
+  box-sizing: border-box;
+  color: rgb(36, 39, 42);
+  font-family: "Playfair Display", sans-serif;
+  font-size: 30.08px;
+  font-weight: 200;
+  letter-spacing: 1.504px;
+  line-height: 40.6px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
 }
 
+.modal-height {
+  height: 600px;
+}
+.modal svg {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.modal-content div {
+  z-index: 10;
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     html {
@@ -166,14 +258,7 @@
     background-size: 370px 305px;
     background-position: center;
   }
-   .share {
-     font-size: 0.8rem;
-     color:gray;
-     text-decoration: none;
-     padding-left: 20px;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-   }
+
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {
     #section1-shp {
