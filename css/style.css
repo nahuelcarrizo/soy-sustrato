@@ -23712,18 +23712,63 @@ header {
   padding-right: 1rem;
 }
 
-.offcanvas__list {
-  margin: 10px 0 15px -5px;
+.offcanvas__header {
+  height: 70px;
+  overflow: visible;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.offcanvas__header-item {
+  height: 50px;
+  width: 100%;
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.offcanvas__animation {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.offcanvas__animation-1 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.22s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.32s;
+}
+.offcanvas__animation-2 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.28s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.38s;
+}
+.offcanvas__animation-3 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.34s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.44s;
+}
+.offcanvas__animation-4 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+}
+.offcanvas__animation-5 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.46s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.56s;
+}
+.offcanvas__animation-6 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.52s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.62s;
+}
+.offcanvas__animation-7 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.58s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.68s;
+}
+.offcanvas__animation-8 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.64s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.74s;
+}
+.offcanvas__animation-9 {
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.7s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.8s;
 }
 
 .offcanvas__item {
   border-top: 1px solid;
-  border-bottom: 1px solid;
   border-color: #e8e8e1;
+  list-style: none;
+  padding-left: 0;
+  margin-right: 10px;
 }
 .offcanvas__item-social {
   margin-right: 10px;
   display: inline-block;
+  text-decoration: none;
 }
 
 .offcanvas__link {
@@ -23732,19 +23777,12 @@ header {
   padding: 0.8rem;
 }
 
-.offcanvas__item-social {
-  opacity: 0;
-  transform: translateY(40px);
-  margin-right: 10px;
-  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.52s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.62s;
-}
-
-.show .offcanvas__item-social {
+.show .offcanvas__animation {
   opacity: 1;
   transform: translateY(0);
 }
 
-offcanvas__link-social {
+.offcanvas__link-social {
   padding: 10px 5px;
   color: #000000;
   text-decoration: none;
