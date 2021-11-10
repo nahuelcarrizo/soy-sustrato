@@ -73,6 +73,13 @@
   height: 100%;
   position: relative;
 }
+.modal .img-vianda {
+  transform: scale(1.6);
+}
+
+.modal-header {
+  border: none;
+}
 .product__link h5 {
   box-sizing: border-box;
   color: rgb(36, 39, 42);

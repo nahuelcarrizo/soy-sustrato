@@ -23963,6 +23963,14 @@ header {
   position: relative;
 }
 
+.modal .img-vianda {
+  transform: scale(1.6);
+}
+
+.modal-header {
+  border: none;
+}
+
 .product__link h5 {
   box-sizing: border-box;
   color: #24272a;
