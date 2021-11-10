@@ -22909,8 +22909,8 @@ textarea.form-control-lg {
   vertical-align: middle;
   white-space: normal;
   opacity: 0;
-  animation: fade-in 1.5s ease 1.5s forwards;
-  animation-delay: 3.4s;
+  animation: fade-in 0.7s ease 1.5s forwards;
+  animation-delay: 2.4s;
 }
 
 #button--shopnow:hover {
@@ -23034,6 +23034,10 @@ textarea.form-control-lg {
 
 .h-100vh {
   height: 100vh !important;
+}
+
+.no-transition {
+  transition: none !important;
 }
 
 .contact {
@@ -23429,7 +23433,7 @@ hr {
 }
 
 .index__image-1 {
-  animation: 2.5s ease-in 1s forwards;
+  animation: 1.6s ease-out 1s forwards;
   animation-name: zoom-fade;
   opacity: 0;
   display: block;
@@ -23457,21 +23461,23 @@ hr {
 .home__text-2 {
   opacity: 1;
   overflow: hidden;
+  padding: 0 0.2rem;
 }
 
 #home__text-3 {
   opacity: 0;
   font-family: "Oswald", sans-serif;
   letter-spacing: 3px;
-  font-size: 2.2rem;
+  font-size: 37px;
   z-index: 4;
+  margin-left: 1.3px;
 }
 
 #home__text-4 {
   font-family: "Oswald", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
   padding: 6px 0;
   opacity: 0;
   z-index: 4;
@@ -23479,15 +23485,24 @@ hr {
 
 #home__text-5 {
   font-family: "Oswald", sans-serif;
-  font-size: 1.5rem;
+  font-size: 22px;
   z-index: 4;
   opacity: 0;
+  letter-spacing: 2.2px;
+}
+
+#home__text-7 {
+  opacity: 0;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 2.5px;
+  font-size: 37px;
+  z-index: 4;
+  padding-left: 19px;
 }
 
 #home__text-6 {
   font-family: "Oswald", sans-serif;
-  font-size: 1.8rem;
+  font-size: 28px;
   z-index: 4;
   opacity: 0;
   letter-spacing: 2.5px;

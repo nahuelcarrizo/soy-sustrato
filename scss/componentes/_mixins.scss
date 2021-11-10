@@ -29,11 +29,11 @@ background: linear-gradient(
 }
 
 @mixin animation-fade {
-    animation: fade-in 1.5s ease 1.5s forwards;
+    animation: fade-in .7s ease 1.5s forwards;
 }
 
 @mixin animation-zoom {
-    animation: 2.5s ease-in 1s forwards;
+    animation: 1.6s ease-out 1s forwards;
     animation-name: zoom-fade;
     opacity: 0;
 }

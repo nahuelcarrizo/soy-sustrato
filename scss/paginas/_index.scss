@@ -75,39 +75,55 @@
 .home__text-2 {
     opacity: 1;
     overflow: hidden;
+    padding: 0 0.2rem;
 
 }
+// INSUMOS
 #home__text-3 {
     opacity: 0;
     font-family: $oswald;
     letter-spacing: 3px;
-    font-size: 2.2rem;
+    font-size: 37px;
     z-index: 4;
+    margin-left: 1.3px;
 }
+// SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES
 #home__text-4 {
     font-family: $oswald;
-    font-size: 1rem;
+    font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: .75px;
     padding: 6px 0;
     opacity: 0;
     z-index: 4;
 }
+// PARA CREAR
 #home__text-5 {
     font-family: $oswald;
-    font-size: 1.5rem;
+    font-size: 22px;
     z-index: 4;
     opacity: 0;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.2px;
 }
+// PACKACKING
+#home__text-7 {
+    opacity: 0;
+    font-family: $oswald;
+    letter-spacing: 2.5px;
+    font-size: 37px;
+    z-index: 4;
+    padding-left: 19px;
+}
+// AMOROSOS CON LA MADRE TIERRA
 #home__text-6 {
     font-family: $oswald;
-    font-size: 1.8rem;
+    font-size: 28px;
     z-index: 4;
     opacity: 0;
     letter-spacing: 2.5px;
     font-weight: 200;
 }
+
 .pl-2 {
     padding-left: 17px;
 }
