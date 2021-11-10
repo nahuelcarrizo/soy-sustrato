@@ -43,6 +43,13 @@ $offcanvas-transition-duration:     .4s;
 $offcanvas-horizontal-width: 300px;
 // scss-docs-end offcanvas-variables
 
+// navbar menu hamburguer icon
+.navbar-toggler {
+  &:focus {
+    box-shadow: 0 0 0 0 !important;
+  }
+}
+
   //IMPORTAR BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 

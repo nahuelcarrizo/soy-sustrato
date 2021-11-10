@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
 @import url(//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
@@ -26,6 +20,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11197,6 +11195,16 @@ textarea.form-control-lg {
   transform: scale(1.01);
 }
 
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
+/*!
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -23292,13 +23300,40 @@ footer ul {
   padding-left: 0;
 }
 
-.footer a i {
-  font-size: 2rem;
-  margin-left: 1rem;
+footer .offcanvas__item {
+  border: none;
+}
+
+.footer__link {
+  padding: 10px 5px;
+  color: #fff !important;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #footer-color {
   background-color: black;
+}
+
+footer svg path {
+  fill: white;
+}
+
+.footer__border::after {
+  content: "";
+  border-bottom: 1px solid;
+  border-color: #fff;
+  opacity: 0.14;
+  display: block;
+}
+
+.footer__social {
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+.footer__social li {
+  margin: 0 0 0 15px;
 }
 
 .footer-1 {
@@ -23360,27 +23395,6 @@ input::placeholder {
 
 hr {
   color: white;
-}
-
-.footer-bottom__copy {
-  color: gray;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-}
-
-.footer-bottom__copy a {
-  color: gray;
-  text-decoration: none;
-}
-
-.footer-bottom__copy a:hover {
-  color: #72c755;
-  text-decoration: none;
-}
-
-.footer-copy {
-  justify-content: center;
 }
 
 .d-yes {
@@ -23564,9 +23578,13 @@ hr {
 
 .links-index {
   color: whitesmoke;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-family: "Monotype Sabon";
   text-decoration: none;
+}
+
+#section2-index div {
+  background-color: #000;
 }
 
 .links-index:hover {
