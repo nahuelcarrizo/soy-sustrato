@@ -71,7 +71,8 @@ header {
 }
 .offcanvas__header {
     height: 70px;
-    overflow: visible;padding-left: 25px;
+    overflow: visible;
+    padding-left: 25px;
     padding-right: 25px;
     &-item{
         height:50px;
@@ -89,28 +90,28 @@ header {
         transition: transform 1s cubic-bezier(.165, .84, .44, 1) .22s,opacity 1s cubic-bezier(.165, .84, .44, 1) .32s;
     }
     &-2 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .28s,opacity 1s cubic-bezier(.165, .84, .44, 1) .38s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .28s, opacity 1s cubic-bezier(.165, .84, .44, 1) .38s;
     }
     &-3 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .34s,opacity 1s cubic-bezier(.165, .84, .44, 1) .44s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .34s, opacity 1s cubic-bezier(.165, .84, .44, 1) .44s;
     }
     &-4 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .4s,opacity 1s cubic-bezier(.165, .84, .44, 1) .5s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .4s, opacity 1s cubic-bezier(.165, .84, .44, 1) .5s;
     }
     &-5 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .46s,opacity 1s cubic-bezier(.165, .84, .44, 1) .56s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .46s, opacity 1s cubic-bezier(.165, .84, .44, 1) .56s;
     }
     &-6 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .52s,opacity 1s cubic-bezier(.165, .84, .44, 1) .62s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .52s, opacity 1s cubic-bezier(.165, .84, .44, 1) .62s;
     }
     &-7 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .58s,opacity 1s cubic-bezier(.165, .84, .44, 1) .68s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .58s, opacity 1s cubic-bezier(.165, .84, .44, 1) .68s;
     }
     &-8 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .64s,opacity 1s cubic-bezier(.165, .84, .44, 1) .74s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .64s, opacity 1s cubic-bezier(.165, .84, .44, 1) .74s;
     }
     &-9 {
-        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .7s,opacity 1s cubic-bezier(.165, .84, .44, 1) .8s;
+        transition: transform 1s cubic-bezier(.165, .84, .44, 1) .7s, opacity 1s cubic-bezier(.165, .84, .44, 1) .8s;
     }
 }
 .offcanvas__item {
