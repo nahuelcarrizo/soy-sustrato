@@ -121,11 +121,11 @@
 }
 .animation__up-modals {
   @include animation-up-2;
-  animation-delay: .2s;
+  animation-delay: .1s;
 }
 .animation__down-modals {
   @include animation-down-1;
-  animation-delay: .2s;
+  animation-delay: .1s;
 }
 
 .modal-header {
