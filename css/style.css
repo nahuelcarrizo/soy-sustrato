@@ -24024,7 +24024,7 @@ header {
 
 .animation__up-modals {
   animation: 2.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
-  opacity: 0.5;
+  opacity: 0;
   animation-name: rise-up-2;
   animation-delay: 0.2s;
 }
