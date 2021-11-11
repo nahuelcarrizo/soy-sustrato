@@ -13,12 +13,19 @@
 @keyframes rise-up-2{
     0%{
         opacity: 0;
-        transform: scale3d(0, 0, 0);
         transform: translateY(5%);
     }
     to{
         opacity: 1;
         transform: translateY(0%);
+    }
+}
+@keyframes rise-down-1{
+    0%{
+        background-position-y: 300px;
+    }
+    to{
+        background-position-y: 340px;
     }
 }
 @keyframes zoom-fade{
@@ -60,5 +67,5 @@
 }
 
 .zoom:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }

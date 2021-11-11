@@ -11156,12 +11156,19 @@ textarea.form-control-lg {
 @keyframes rise-up-2 {
   0% {
     opacity: 0;
-    transform: scale3d(0, 0, 0);
     transform: translateY(5%);
   }
   to {
     opacity: 1;
     transform: translateY(0%);
+  }
+}
+@keyframes rise-down-1 {
+  0% {
+    background-position-y: 300px;
+  }
+  to {
+    background-position-y: 340px;
   }
 }
 @keyframes zoom-fade {
@@ -11203,7 +11210,7 @@ textarea.form-control-lg {
 }
 
 .zoom:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 .navbar-toggler:focus {
@@ -22896,7 +22903,7 @@ textarea.form-control-lg {
 }
 
 .modal__text-1 {
-  font-family: "Cinzel", serif;
+  font-family: "Playfair Display", sans-serif;
   font-size: 2.7rem;
   font-weight: 500;
 }
@@ -23000,7 +23007,7 @@ header button path {
 }
 
 .modal__text-1 {
-  font-family: "Cinzel", serif;
+  font-family: "Playfair Display", sans-serif;
   font-size: 2.7rem;
   font-weight: 500;
 }
@@ -23055,7 +23062,7 @@ header button path {
 }
 
 .modal__text-1 {
-  font-family: "Cinzel", serif;
+  font-family: "Playfair Display", sans-serif;
   font-size: 2.7rem;
   font-weight: 500;
 }
@@ -24019,6 +24026,12 @@ header {
   animation-delay: 0.2s;
 }
 
+.animation__down-modals {
+  animation: 2.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
+  animation-name: rise-down-1;
+  animation-delay: 0.2s;
+}
+
 .modal-header {
   border: none;
 }
@@ -24028,20 +24041,21 @@ header {
   background-image: url(../imgs/shop/modals/modal-bg-2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0px 370px;
-}
-
-.modal svg {
-  width: 500px;
-  height: 600px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
+  background-position: 0px 300px;
 }
 
 .modal-content div {
   z-index: 10;
+}
+
+.modal i {
+  font-size: 2rem;
+  opacity: 0.8;
+  margin: 0 6px;
+}
+
+.modal__text-1 {
+  opacity: 0.8;
 }
 
 /* Medium devices (tablets, 768px and up) */

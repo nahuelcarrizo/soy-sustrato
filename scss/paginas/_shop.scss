@@ -1,4 +1,5 @@
 @use '../componentes/mixins' as *;
+@use '../componentes/animaciones';
 
 #section1-shp {
     margin-top: 100px;
@@ -122,6 +123,10 @@
   @include animation-up-2;
   animation-delay: .2s;
 }
+.animation__down-modals {
+  @include animation-down-1;
+  animation-delay: .2s;
+}
 
 .modal-header {
   border: none;
@@ -133,18 +138,20 @@
   background-image: url(../imgs/shop/modals/modal-bg-2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0px 370px;
+  background-position: 0px 300px;
 }
-.modal svg {
-  width: 500px;
-  height: 600px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
+
 .modal-content div {
   z-index: 10;
+}
+.modal i {
+  font-size: 2rem;
+  opacity: .8;
+  margin: 0 6px;
+}
+.modal__text-1 {
+  opacity: .8;
+
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

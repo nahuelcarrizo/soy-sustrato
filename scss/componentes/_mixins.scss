@@ -31,6 +31,10 @@ background: linear-gradient(
     opacity: 0;
     animation-name: rise-up-2;
 }
+@mixin animation-down-1 {
+    animation: 2.5s cubic-bezier(.26,.54,.32,1) forwards;
+    animation-name: rise-down-1;
+}
 
 @mixin animation-fade {
     animation: fade-in .7s ease 1.5s forwards;
