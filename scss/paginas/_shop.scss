@@ -145,14 +145,35 @@
   z-index: 10;
 }
 .modal i {
-  font-size: 2rem;
-  opacity: .8;
+  font-size: 1.6rem;
   margin: 0 6px;
+  color: #24272a;
 }
-.modal__text-1 {
-  opacity: .8;
+.modal a {
+  color: #24272a;
+}
+.modal h3 {
+  font-family: $dm-text;
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: #24272a;
+  font-style: italic;
+}
+.modal h4 {
+  font-family:'Gill Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #24272a;
+}
+.modal-body button {
+  border: none;
+  background-color: #33373b;
+  &:hover {
+    color: white !important;
+    transform: scale(1.05);
+  }
+}
 
-}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     html {
