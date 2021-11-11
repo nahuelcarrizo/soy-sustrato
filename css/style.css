@@ -24023,7 +24023,7 @@ header {
   min-width: 80px;
   height: 255px;
   position: relative;
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .animation__up-modals {
@@ -24087,11 +24087,19 @@ header {
   color: #24272a;
 }
 
-.modal-body button {
+.modal-content > button {
   border: none;
   background-color: #33373b;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.7rem;
+  font-weight: 200;
+  z-index: 20;
 }
-.modal-body button:hover {
+.modal-content > button:hover {
   color: white !important;
   transform: scale(1.05);
 }
