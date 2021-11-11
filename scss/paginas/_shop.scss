@@ -112,13 +112,19 @@
   min-width: 77.75px;
   height: 100%;
   position: relative;
+  transform: scale(1.2);
+}
+.img-cubo {
+  width: 90%;
+  min-width: 80px;
+  height: 255px;
+  position: relative;
+  transform: scale(1.3);
 }
 
+
 // Modals
-.modal .img-vianda {
-  transform: scale(1.2);
-  object-fit: cover;
-}
+
 .animation__up-modals {
   @include animation-up-2;
   animation-delay: .1s;
@@ -144,6 +150,10 @@
 .modal-content div {
   z-index: 10;
 }
+.modal-body.animation__up-modals {
+  padding: 0 !important;
+  max-height: 100%;
+}
 .modal i {
   font-size: 1.6rem;
   margin: 0 6px;
@@ -151,6 +161,9 @@
 }
 .modal a {
   color: #24272a;
+  z-index: 100;
+  justify-content: space-between;
+
 }
 .modal h3 {
   font-family: $dm-text;
