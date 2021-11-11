@@ -23899,12 +23899,15 @@ header {
   }
 }
 #section1-shp {
-  margin-top: 45%;
-  padding-top: 3%;
+  margin-top: 100px;
   overflow: hidden;
-  height: 1000px;
-  margin-bottom: 30%;
-  font-family: "Monotype Sabon";
+  height: 100%;
+  margin-bottom: 10%;
+}
+
+.shop__container-1 {
+  display: grid;
+  margin: 4rem 2rem;
 }
 
 .product__link {
@@ -23921,20 +23924,8 @@ header {
 
 .product__container-title {
   position: absolute;
-  bottom: 0px;
+  bottom: 25px;
   z-index: 10;
-}
-
-.product__link h5 {
-  color: whitesmoke;
-  font-family: "Gill sans", Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.96px;
-  line-height: 26.8833px;
-  margin-bottom: 0px;
-  margin-top: 28px;
-  text-align: left;
 }
 
 .product__link h1 {
@@ -23977,7 +23968,6 @@ header {
 }
 
 .product__link div:nth-child(2)::before {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.82) 100%);
   content: "";
   position: absolute;
   top: 0;
@@ -23996,7 +23986,18 @@ header {
   bottom: 0;
   z-index: 3;
   background-color: #000;
-  opacity: 0.1;
+  opacity: 0.3;
+}
+.product__link div:nth-child(2):active::after {
+  opacity: 0;
+}
+.product__link div:nth-child(2):hover::after {
+  opacity: 0;
+}
+.product__link div:nth-child(2):hover.product__link h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
 }
 
 .img-vianda {

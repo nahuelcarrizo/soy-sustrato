@@ -1,14 +1,16 @@
 @use '../componentes/mixins' as *;
 
 #section1-shp {
-    margin-top: 45%;
-    padding-top: 3%;
+    margin-top: 100px;
     overflow: hidden;
-    height: 1000px;
-    margin-bottom: 30%;
-    font-family: "Monotype Sabon";
+    height: 100%;
+    margin-bottom: 10%;
 }
 
+.shop__container-1 {
+  display: grid;
+  margin: 4rem 2rem;
+}
 .product__link {
   display: block;
   max-width: 100%;
@@ -23,22 +25,12 @@
 
 .product__container-title {
   position: absolute;
-  bottom: 0px;
+  bottom: 25px;
   z-index: 10;
 }
-.product__link h5 {
-  color: whitesmoke;
-  font-family: "Gill sans", Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.96px;
-  line-height: 26.8833px;
-  margin-bottom: 0px;
-  margin-top: 28px;
-  text-align: left
-}
+
 .product__link h1 {
-  color:  whitesmoke;
+  color: whitesmoke;
   font-family: "Playfair Display", sans-serif;
   font-size: 2rem;
   font-weight: 400;
@@ -76,7 +68,7 @@
   vertical-align: middle;
 }
 .product__link div:nth-child(2)::before {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.82) 100%);
+  // background-image: linear-gradient(0deg, rgba(255,255,255,0.9) 0%, rgba(0,0,0,0.2) 5%, rgba(255,255,255,0.9) 95%);
   content: "";
   position: absolute;
   top: 0;
@@ -85,7 +77,8 @@
   left: 0;
   z-index: 3;
 }
-.product__link div:nth-child(2)::after{
+.product__link div:nth-child(2) {
+  &::after{
   content: '';
   position: absolute;
   left: 0;
@@ -94,15 +87,33 @@
   bottom: 0;
   z-index: 3;
   background-color: #000;
-  opacity: 0.1;
-}
+  opacity: 0.3;
+  }
+  &:active {
+    &::after{
+      opacity: 0;
 
+    }
+  }
+  &:hover {
+    &::after{
+    opacity: 0;
+    }
+    &.product__link h1 {
+      font-family: "Playfair Display", sans-serif;
+      font-size: 2.5rem;
+      letter-spacing: 4px;
+    }
+  }
+}
 .img-vianda {
   width: 100%;
   min-width: 77.75px;
   height: 100%;
   position: relative;
 }
+
+// Modals
 .modal .img-vianda {
   transform: scale(1.2);
   object-fit: cover;
