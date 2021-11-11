@@ -21,11 +21,15 @@ background: linear-gradient(
     height: 450px;
 }
 
-
-@mixin animation-up {
+@mixin animation-up-1 {
     animation: 1.5s cubic-bezier(.26,.54,.32,1) forwards;
-    animation-name: rise-up;
     opacity: 0;
+    animation-name: rise-up-1;
+}
+@mixin animation-up-2 {
+    animation: 2.5s cubic-bezier(.26,.54,.32,1) forwards;
+    opacity: 0;
+    animation-name: rise-up-2;
 }
 
 @mixin animation-fade {

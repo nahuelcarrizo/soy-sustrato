@@ -72,9 +72,15 @@
   min-width: 77.75px;
   height: 100%;
   position: relative;
+
 }
 .modal .img-vianda {
-  transform: scale(1.6);
+  transform: scale(1.2);
+  object-fit: cover;
+}
+.animation__up-modals {
+  @include animation-up-2;
+  animation-delay: .2s;
 }
 
 .modal-header {
@@ -92,14 +98,13 @@
   margin-top: 28px;
   text-align: center;
 }
-.product__link h4 {
+.product__link h1 {
   box-sizing: border-box;
   color: rgb(36, 39, 42);
   font-family: "Playfair Display", sans-serif;
-  font-size: 30.08px;
-  font-weight: 200;
-  letter-spacing: 1.504px;
-  line-height: 40.6px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
@@ -107,6 +112,10 @@
 
 .modal-height {
   height: 600px;
+  background-image: url(../../imgs/shop/modals/modal-bg-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 370px;
 }
 .modal svg {
   width: 500px;

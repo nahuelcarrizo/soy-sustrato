@@ -61,6 +61,7 @@ $oswald:'Oswald', sans-serif;
 }
 
 // SHOP
+
 .product__title--1 {
     font-size: 1.2rem;
     color: black;
@@ -71,4 +72,10 @@ $oswald:'Oswald', sans-serif;
     font-size: 1rem;
     color: #413c3c;
     padding-left: 20px;
+  }
+
+  .modal__text-1 {
+      font-family: $manifiesto-font-2;
+      font-size: 2.7rem;
+      font-weight: 500;
   }

@@ -131,22 +131,22 @@
 
 .animation__up {
     &-1 {
-        @include animation-up;
+        @include animation-up-1;
         animation-delay: .1s;
     }
 
     &-2 {
-        @include animation-up;
+        @include animation-up-1;
         animation-delay: .7s;
     }
 
     &-3 {
-        @include animation-up;
+        @include animation-up-1;
         animation-delay: 1.1s;
     }
     
     &-4 {
-        @include animation-up;
+        @include animation-up-1;
         animation-delay: 1.4s;
     }
 }
