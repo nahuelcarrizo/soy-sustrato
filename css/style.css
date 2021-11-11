@@ -24010,6 +24010,10 @@ header {
   letter-spacing: 4px;
 }
 
+.carousel-inner {
+  height: 500px;
+}
+
 .img-vianda {
   width: 100%;
   min-width: 77.75px;
@@ -24095,7 +24099,7 @@ header {
   left: 0;
   right: 0;
   margin: auto;
-  max-width: 100px;
+  max-width: 150px;
   font-size: 0.7rem;
   font-weight: 200;
   z-index: 20;
