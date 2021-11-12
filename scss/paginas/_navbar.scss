@@ -65,17 +65,11 @@ header {
 .offcanvas__btn-close{
     padding-right: 1rem;
 }
-.offcanvas__header {
-    height: 70px;
-    overflow: visible;
-    padding-left: 25px;
-    padding-right: 25px;
-    &-item{
+.offcanvas__header-item{
         height:50px;
         width: 100%;
         padding: 5px 0;
         margin-bottom: 0;
-    }
 }
 .offcanvas__animation {
     opacity: 0;
@@ -130,7 +124,12 @@ header {
     font-weight: 400;
     padding: 0.8rem;
 }
-
+.offcanvas-body {
+    height: 70px;
+    overflow: visible;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
 .show .offcanvas__animation {
     opacity: 1;
     transform: translateY(0);

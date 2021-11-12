@@ -5,50 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!------------------------------------------ CSS ------------------------------------------>
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    /> -->
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;400&display=swap"
-      rel="stylesheet"
-    />
     <link rel="shortcut icon" href="imgs/chat-icon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans&family=Syne+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <!-- nuevas fuentes -->
-    <link
-      href="//db.onlinewebfonts.com/c/f6a976a2bc80fd96b873575f9b7dfee2?family=Monotype+Sabon"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet"> 
-
     <!------------------------------------------ SEO ------------------------------------------>
     <!-- palabras claves -->
     <meta name="keywords" content="packaging, ecológico, cubo, bandeja, sobres, doypack, gastronomía, perfumería" />
@@ -57,9 +21,7 @@
     <!-- crawlers -->
     <meta name="robots" content="index, follow"/>
     <title>Soy Sustrato | INICIO</title>
-
     <link rel="shortcut icon" href="imgs/icono-hoja.png" type="soysustrato icono" />
-
   </head>
   <body>
     <!--HEADER-->
@@ -73,13 +35,14 @@
                 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                   <button class="navbar-toggler border-0 border-0 no-transition" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
                     <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 64 64"><path d="M7 15h51M7 32h43M7 49h51"></path></svg>
-                  </button>       
+                  </button>
                   <div class="offcanvas offcanvas-start zindex-offcanvas flex-column" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
                     <div class="offcanvas__header">
                       <div class="offcanvas__header-item offcanvas__animation offcanvas__animation-1">
                         <div class="offcanvas__btn-close d-flex justify-content-end pt-3 pb-1">
                           <button type="button" class="btn-close text-reset align-self-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
+                      </div>
                     </div>
                     <div class="offcanvas-body p-2">
                       <ul class="navbar-nav m-auto mt-2 mt-lg-0 position-relative">
@@ -147,18 +110,18 @@
     </div>
     <main id="mainContent">
       <!-- INICIO contenido_index -->
-      <section id="home--section1">
+      <section id="home--section1" class="position-relative">
         <div class="image__wrapper-1">
             <img class="index__image-1" src="imgs/1b-portada.jpg">
         </div>
-        <div class="container position-absolute h-100 w-100 d-flex flex-column align-items-start justify-content-center">
+        <div id="text__wrapper-1" class="position-absolute h-100 d-flex flex-column justify-content-center">
           <div class="mb-1 w-100 position-relative">
             <h1>
-              <div class="home__text-2 d-flex flex-column">
-                <div id="home__text-3" class="animation__up-1 text-left">INSUMOS</div>
-                <div id="home__text-4" class="animation__up-1 text-center">SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES</div>
+              <div id="text__wrapper-2" class="m-auto h-100">
+                <div id="home__text-3" class="animation__up-1">INSUMOS</div>
+                <div id="home__text-4" class="animation__up-1">SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES</div>
                 <div class="d-flex align-items-center">
-                  <div id="home__text-5" class="animation__up-2">para CREAR</div>
+                  <div id="home__text-5" class="animation__up-2 flex-grow-1">para CREAR</div>
                   <div id="home__text-7" class="animation__up-2">PACKAGINGS</div>
                 </div>
                 <div id="home__text-6" class="animation__up-3 text-center">amorosos con la madre tierra</div>
@@ -354,7 +317,7 @@
               </form>
             </div>
             <div class="col-12 h-25 mt-2 text-center">
-              © 2021 Soy Sustrato  
+              © 2021 Soy Sustrato
             </div>
           </div>
         </div>

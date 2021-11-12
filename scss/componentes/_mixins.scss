@@ -1,15 +1,21 @@
 @use '../custom' as *;
-@import 'tipografia';
-//MIXIN GRADIANTE
+@use 'tipografia' as *;
 
+//MIXIN GRADIANTE
 @mixin gradient {
 background: linear-gradient(
     to right,
     rgba($primary, 0.95),
-    rgba($secondary, 0.95)
-);
+    rgba($secondary, 0.95));
 }
-
+@mixin after-before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 @mixin image-ss {
     background-repeat: no-repeat;
     background-size: cover;

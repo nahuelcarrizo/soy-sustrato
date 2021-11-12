@@ -1,5 +1,6 @@
 @use '../componentes/mixins' as *;
-@use '../componentes/animaciones';
+@use '../componentes/animaciones' as *;
+@use '../componentes/tipografia' as *;
 
 #section1-shp {
     margin-top: 100px;

@@ -1,7 +1,8 @@
 @use '../custom' as *;
 @use '../componentes/mixins' as *;
-@use '../componentes/globals';
-@use '../componentes/animaciones';
+@use '../componentes/globals' as *;;
+@use '../componentes/animaciones' as *;
+@use '../componentes/tipografia' as *;
 
 // HOME
 
@@ -12,122 +13,82 @@
 
 // sección 1
 
-#home--section1 {
-    position: relative;
-}
-
-
 // Imagen inicial
-
 .image__wrapper-1 {
     height:90vh;
     overflow: hidden;
     background-color: black;
 }
 .image__wrapper-1::before {
+    @include after-before;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.62) 100%);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 3;
+    z-index: 1;
 }
 .image__wrapper-1::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
+    @include after-before;
+    z-index: 1;
     background-color: #000;
     opacity: 0.1;
 }
 .index__image-1 {
     @include animation-zoom;
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
+    height: 90vh;
+    position: relative; //para acomodar la imagen
     object-fit: cover;
+    right: 70px;
 }
 
-// Text principal
+// // TEXTO BIENVENIDA
 
-.text__wrapper {
-    margin-top: 18%;
-    padding: 0 20px;
-    overflow: hidden;
-}
-#home--section1 .container {
-    top: 0;
-    // padding-top: 28vh;
+#text__wrapper-1 {
+    top: 57px;
     left: 0;
-    padding: 15vh 1rem 0 1rem;
-    max-width: 1300px;
     color: whitesmoke;
-
+    font-family: $oswald;
+    z-index: 4;
+    width: 100vw;
 }
-.home__text-2 {
+#text__wrapper-2 {
     opacity: 1;
     overflow: hidden;
     padding: 0 0.2rem;
-
+    width: 350px;
+}
+div[id^='home__text-']{
+    opacity: 0;
+    display: inline-block;
+    
 }
 // INSUMOS
 #home__text-3 {
-    opacity: 0;
-    font-family: $oswald;
     letter-spacing: 3px;
-    font-size: 37px;
-    z-index: 4;
-    margin-left: 1.3px;
+    font-size: 3.7rem;
 }
 // SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES
 #home__text-4 {
-    font-family: $oswald;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: .75px;
+    font-size: 1.6rem;
+    letter-spacing: .075rem;
     padding: 6px 0;
-    opacity: 0;
-    z-index: 4;
-    margin-left: -10px;
 }
 // PARA CREAR
 #home__text-5 {
-    font-family: $oswald;
-    font-size: 22px;
-    z-index: 4;
-    opacity: 0;
-    letter-spacing: 2.2px;
+    font-size: 2.2rem;
+    letter-spacing: .22rem;
 }
 // PACKACKING
 #home__text-7 {
-    opacity: 0;
-    font-family: $oswald;
-    letter-spacing: 2.5px;
-    font-size: 37px;
-    z-index: 4;
-    padding-left: 19px;
+    letter-spacing: 0.25rem;
+    font-size: 3.7rem;
+    // padding-left: 19px;
 }
 // AMOROSOS CON LA MADRE TIERRA
 #home__text-6 {
-    font-family: $oswald;
-    font-size: 28px;
-    z-index: 4;
-    opacity: 0;
-    letter-spacing: 2.5px;
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
     font-weight: 200;
-    margin-left: -10px;
 }
 
-.pl-2 {
-    padding-left: 17px;
-}
+// animaciones del texto
 
 .animation__up {
     &-1 {
@@ -260,14 +221,76 @@
     height: auto;
     max-width: 100%;
 }
+@media (hover) {
 
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-}
 
+#text__wrapper-2 {
+    width: 650px;
+}
+// #home__text-3 {
+//     letter-spacing: 0.4rem;
+//     font-size: 2.3rem;
+// }
+// // PARA CREAR
+// #home__text-5 {
+//     font-size: 2rem;
+//     letter-spacing: .22rem;
+// }
+// // PACKACKING
+// #home__text-7 {
+//     letter-spacing: 0.4rem;
+//     font-size: 2.3rem;
+//     padding-left: 35px;
+// }
+}
 /* Medium devices (desktop) */
 @media (min-width: 992px) {
     .image__wrapper-1 {
         height:100vh;
     }
+    .index__image-1 {
+        object-fit: cover;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #text__wrapper-2 {
+        padding: 0 0.2rem;
+        width: 700px;
+    }
+    div[id^='home__text-']{
+        display: inline-block;
+    }
+    // INSUMOS
+    #home__text-3 {
+        letter-spacing: 0.4rem;
+        font-size: 2.65rem;
+    }
+    // SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES
+    #home__text-4 {
+        font-size: 1.55rem;
+        letter-spacing: .09rem;
+        padding: 6px 0;
+    }
+    // PARA CREAR
+    #home__text-5 {
+        font-size: 2.4rem;
+        letter-spacing: .24rem;
+    }
+    // PACKACKING
+    #home__text-7 {
+        letter-spacing: 0.4rem;
+        font-size: 2.65rem;
+        // padding-left: 45px;
+    }
+    // AMOROSOS CON LA MADRE TIERRA
+    #home__text-6 {
+        font-size: 2.7rem;
+        letter-spacing: 0.27rem;
+        font-weight: 200;
+    }
+    
 }

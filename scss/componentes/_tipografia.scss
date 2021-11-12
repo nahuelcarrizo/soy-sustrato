@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
- 
+
 // variables
 $yester-year: 'Yesteryear', cursive;
 $roboto: 'Roboto Slab', serif;
@@ -17,6 +17,9 @@ $open-sans: 'Open Sans', sans-serif;
 $oswald:'Oswald', sans-serif;
 $dm-text: 'DM Serif Text', sans-serif;
 
+html {
+    font-size: 62.5%; //100% == 10px;
+}
 #index__title--1 {
     font-size: 2rem;
     color: whitesmoke;
