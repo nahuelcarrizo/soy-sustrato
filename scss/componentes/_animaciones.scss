@@ -1,5 +1,7 @@
 // index
+@use 'mixins' as*;
 
+// Texto bienvenida
 @keyframes rise-up-1{
     0%{
         opacity:0;
@@ -28,6 +30,9 @@
         background-position-y: 340px;
     }
 }
+
+// section 2
+
 @keyframes zoom-fade{
     0%{
         opacity:0;
@@ -49,21 +54,56 @@
         opacity: 1;
     }
 }
-
+@keyframes animation1 {
+    from { 
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes animation3 {
+    0%{
+        opacity:1;
+    }
+    25%{
+        opacity:0.4;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes opacity1 {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
 .reveal {
     position: relative;
-    opacity: 0;
-    transition: all 1.7s ease;
-    transition: transform 3s;
-    transform: scale(1.1);
+    // opacity: 0;
+    // transition: all 1.7s ease;
+    // transition: transform 3s;
+    // transform: scale(1.1);
     
 }
-
 .reveal.active {
-    opacity: 1;
-    transition: opacity 1.7s;
-    transform: scale (1);
+    & img {
+    // opacity: 1;
+    // transition: opacity 1.7s;
+    // transform: scale (1);
+    @include animation2;
+    
+    }
 }
+.reveal.active.image__wrapper-3::after{
+        @include animation4;
+    }
+
 .zoom {
     transition: transform .2s; 
     cursor: pointer;

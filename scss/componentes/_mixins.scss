@@ -1,5 +1,6 @@
 @use '../custom' as *;
 @use 'tipografia' as *;
+// @use 'animaciones' as*;
 
 //MIXIN GRADIANTE
 @mixin gradient {
@@ -47,7 +48,22 @@ background: linear-gradient(
 }
 
 @mixin animation-zoom {
-    animation: 2s ease-out 1s forwards;
+    animation: 2s ease-out .1s forwards;
     animation-name: zoom-fade;
+    opacity: 0;
+}
+
+@mixin animation2 {
+    animation: 3s ease 0s fordwards;
+    animation-name: animation1;
+}
+@mixin animation4 {
+    animation: .2s ease-in-out 0s forwards;
+    animation-name: animation3;
+    opacity: 0;
+}
+@mixin opacity2 {
+    animation: 2s ease-out 1s forwards;
+    animation-name: opacity1;
     opacity: 0;
 }

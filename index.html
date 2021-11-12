@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!------------------------------------------ CSS ------------------------------------------>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
@@ -154,34 +155,46 @@
       <!-- 2da sección -->
       <section id="section2-index">
         <div class="container-fluid bg-white" id="section2__container">
-          <div class="row h-100 inline-flex bg-white">
-            <div class="col-12 col-lg-4 p-0">
-              <div class="reveal zoom d-flex align-end" id="section2__image--1">
-                <div class="section2__text--p bg-transparent mb-1">
-                  <a href="faqs.html" class="links-index">#MeHagoTierra </a>
+          <div class="row h-100 bg-white grid__wrapper">
+            <div class="image__wrapper-2 col-12 col-lg-4 p-0 h-50 mb-1">
+              <a href="faqs.html">
+                <div class="reveal image__wrapper-3 h-100">
+                  <img src="imgs/MeHagoTierra.jpeg" alt="me hago tierra">
+                  <div class="image__title-1">
+                    <h3>#meHagoTierra</h3>
+                  </div>
                 </div>
-              </div>
-            </div>  
-            <div class="col-12 col-lg-8 p-0">
-              <div class="reveal zoom d-flex align-end" id="section2__image--2">
-                <div class="section2__text--p bg-transparent mb-1">
-                    <a href="shop.html" class="links-index">Todos los productos</a>
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="col-12 col-lg-8 ml-1 p-0">
-              <div class="d-flex align-end reveal zoom" id="section2__image--3">
-                <div class="section2__text--p bg-transparent mb-1">
-                  <a href="nosotros.html" class="links-index">Nosotros</a>
+            <div class="image__wrapper-2 col-12 col-lg-8 p-0 h-50 mb-1">
+              <a href="shop.html">
+                <div class="reveal image__wrapper-3 h-100">
+                  <img src="imgs/productos.jpeg" alt="productos">
+                  <div class="image__title-1">
+                    <h3>Productos</h3>
+                  </div>
                 </div>
-              </div> 
+              </a>
             </div>
-            <div class="col-12 col-lg-4 ml-1 p-0">
-              <div class="d-flex align-end reveal zoom" id="section2__image--4">
-                <div class="section2__text--p bg-transparent mb-1">
-                  <a href="contacto.html" class="links-index">Contactanos</a>
+            <div class="image__wrapper-2 col-12 col-lg-8 p-0 h-50">
+              <a href="nosotros.html">
+                <div class="reveal image__wrapper-3 h-100">
+                  <img src="imgs/novedades.jpeg" alt="nosotros">
+                  <div class="image__title-1">
+                    <h3>Nosotros</h3>
+                  </div>
                 </div>
-              </div>
+              </a>
+            </div>
+            <div class="image__wrapper-2 col-12 col-lg-4 p-0 h-50">
+              <a href="contacto.html">
+                <div class="reveal image__wrapper-3 h-100">
+                  <img src="imgs/contactanos.jpeg" alt="nosotros">
+                  <div class="image__title-1">
+                    <h3>Contactanos</h3>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -354,7 +367,7 @@
           var revealpoint = 150;
   
           if(revealtop < windowheight - revealpoint){
-            reveals[i].classList.add('active');
+            reveals[i].classList.add('active','opacity-100');
           }
           else{
             reveals[i].classList.remove('active');
