@@ -1,3 +1,4 @@
+@use '../componentes/tipografia' as*;
 /* HEADER */
 .header__wrapper {
     // height: 57px;
@@ -36,11 +37,6 @@ header {
     padding: 0 10px;
 }
 
-.flex-navbar {
-    display: flex;
-    flex-direction: row;
-}
-
 #header-logo {
     width: 130px;
     z-index: 99;
@@ -51,7 +47,11 @@ header {
     margin: 0;
     display: flex;
 }
-
+.navbar__desktop {
+    font-family: $comic;
+    color: white;
+    font-weight: 400;
+}
 .navbar-list {
     list-style: none;
     padding-left: 0;
@@ -120,7 +120,7 @@ header {
     }
 }
 .offcanvas__link {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 400;
     padding: 0.8rem;
 }
@@ -146,4 +146,19 @@ header {
     height: 24px;
     display: inline-block;
     vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    .offcanvas__link {
+        font-size: 1rem;
+    }
+}
+@media(min-width: 992px) {
+    .navbar__desktop{
+        display: flex;
+        
+    }
+    .offcanvas {
+        display: none;
+    }
 }

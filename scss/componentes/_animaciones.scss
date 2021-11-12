@@ -55,11 +55,14 @@
     opacity: 0;
     transition: all 1.7s ease;
     transition: transform 3s;
+    transform: scale(1.1);
+    
 }
 
 .reveal.active {
     opacity: 1;
     transition: opacity 1.7s;
+    transform: scale (1);
 }
 .zoom {
     transition: transform .2s; 
@@ -67,5 +70,5 @@
 }
 
 .zoom:hover {
-    transform: scale(1.05);
+    // transform: scale(1.05);
 }
