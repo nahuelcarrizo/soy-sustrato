@@ -51,6 +51,7 @@ header {
     font-family: $comic;
     color: white;
     font-weight: 400;
+    display: none;
 }
 .navbar-list {
     list-style: none;
@@ -120,7 +121,7 @@ header {
     }
 }
 .offcanvas__link {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
     padding: 0.8rem;
 }
