@@ -20,6 +20,7 @@ $dm-text: 'DM Serif Text', sans-serif;
 $mali: 'Mali', cursive;
 $comic: 'Comic Neue', cursive;
 $kalam: 'Kalam', cursive;
+
 html {
     font-size: 62.5%; //100% == 10px;
 }
@@ -28,30 +29,6 @@ html {
     color: whitesmoke;
 }
 
-#section3__text-1 {
-    font-family: $manifiesto-font-1;
-    font-size: 2.4rem;
-}
- .text {
-    font-family: $manifiesto-font-2;
-    color: #1c1d1d;
-        
-        &-2 {
-        font-size: 1.1rem;
-        letter-spacing: 3px;
-        font-weight: 300;
-        }
-        
-        &-3 {
-            font-size: 0.9rem;
-            letter-spacing: 2px;
-            font-weight: 200;
-        }
-}
-
-#section3-index p {
-    font-size: 14px;
-}
 
 // nosotros
 #nosotros__text-1 {

@@ -202,24 +202,15 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    html {
-      font-size: 1.2rem;
-    }
-  
     .links-index {
       width: auto;
     }
-  
     #section2__image--3 {
       background-position: top;
     }
   }
   /* Medium devices (desktop) */
   @media (min-width: 992px) {
-    html {
-      font-size: 1.3rem;
-    }
-  
     .index__section2-row {
       display: grid;
       grid-template-areas: "grid-area-1 grid-area-2 grid-area-2" "grid-area-3 grid-area-3 grid-area-4";
@@ -228,7 +219,6 @@
       grid-row-gap: 2px;
       position: relative;
     }
-  
     .index__section2-col1 {
       grid-area: grid-area-1;
       position: relative;

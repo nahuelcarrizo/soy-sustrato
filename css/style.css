@@ -11142,30 +11142,6 @@ html {
   color: whitesmoke;
 }
 
-#section3__text-1 {
-  font-family: "Kaushan Script", cursive;
-  font-size: 2.4rem;
-}
-
-.text {
-  font-family: "Cinzel", serif;
-  color: #1c1d1d;
-}
-.text-2 {
-  font-size: 1.1rem;
-  letter-spacing: 3px;
-  font-weight: 300;
-}
-.text-3 {
-  font-size: 0.9rem;
-  letter-spacing: 2px;
-  font-weight: 200;
-}
-
-#section3-index p {
-  font-size: 14px;
-}
-
 #nosotros__text-1 {
   font-family: "Playfair Display", serif;
   font-size: 3.3rem;
@@ -11579,8 +11555,8 @@ footer p {
   margin-bottom: 0.5rem;
 }
 
-footer button {
-  font-size: 1.2rem !important;
+.accordion-button {
+  font-size: 1.3rem;
 }
 
 #footer-sumate {
@@ -11606,6 +11582,12 @@ footer .offcanvas__item {
   color: #fff !important;
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer__logo {
+  width: 12.3rem;
+  height: 4.1rem;
+  z-index: 99;
 }
 
 #footer-color {
@@ -11823,7 +11805,7 @@ div[id^=home__text-] {
 
 #section2-index {
   width: 100%;
-  height: 1400px;
+  height: 124rem;
   margin-top: 2px;
   margin-bottom: 0.3%;
   background-color: #ffffff;
@@ -11897,7 +11879,7 @@ div[id^=home__text-] {
 
 .image__title-1 h3 {
   letter-spacing: 0.4px;
-  font-size: 1.4rem;
+  font-size: 2.2rem;
   font-family: "Cinzel", serif;
   font-weight: 400;
   opacity: 0.9;
@@ -11949,6 +11931,30 @@ div[id^=home__text-] {
   padding-right: 1rem;
 }
 
+#section3__text-1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 2.9rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+#section3__text-2 {
+  color: #1c1d1d;
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+}
+
+#section3__text-3 {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+#section3-index p {
+  font-size: 14px;
+}
+
 #section3__text-2 {
   display: block;
   margin: 20px 0;
@@ -11963,6 +11969,14 @@ div[id^=home__text-] {
 @media (min-width: 768px) {
   #text__wrapper-2 {
     width: 650px;
+  }
+
+  .image__title-1 h3 {
+    letter-spacing: 0.4px;
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    opacity: 0.9;
   }
 }
 /* Medium devices (desktop) */
@@ -12012,6 +12026,11 @@ div[id^=home__text-] {
     font-size: 2.7rem;
     letter-spacing: 0.27rem;
     font-weight: 200;
+  }
+
+  #section2-index {
+    height: 124rem;
+    margin-bottom: 1rem;
   }
 
   .image__wrapper-2 {
@@ -12446,10 +12465,6 @@ header {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  html {
-    font-size: 1.2rem;
-  }
-
   .links-index {
     width: auto;
   }
@@ -12460,10 +12475,6 @@ header {
 }
 /* Medium devices (desktop) */
 @media (min-width: 992px) {
-  html {
-    font-size: 1.3rem;
-  }
-
   .index__section2-row {
     display: grid;
     grid-template-areas: "grid-area-1 grid-area-2 grid-area-2" "grid-area-3 grid-area-3 grid-area-4";
