@@ -289,19 +289,56 @@ div[id^='home__text-']{
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
     #text__wrapper-2 {
-        width: 650px;
+        width: 51rem;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        // align-items: center;
+        align-content: space-between;
     }
-    
-//// SECCION 2
-.image__title-1 h3 {
-    letter-spacing: .4px;
-    font-size: 3rem;
-    font-family: $manifiesto-font-2;
-    font-weight: 400;
-    opacity: .9;
-}
+    // insumos
+    #home__text-3 {
+        display: block;
+        flex: 0 1 auto;
+        align-self: flex-start;
+        order: 0;
+        letter-spacing: .3rem;
+        font-size: 4.8rem;
+    }
+    // SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES
+    #home__text-4 {
+        font-size: 2.2rem;
+        letter-spacing: .2rem;
+        padding: 6px 0;
+    }
+    // PARA CREAR
+    #home__text-5 {
+        font-size: 3.3rem;
+        letter-spacing: .4rem;
+    }
+    // PACKACKING
+    #home__text-7 {
+        letter-spacing: 0.35rem;
+        font-size: 5rem;
+        flex-basis: fill;
+        // padding-left: 19px;
+    }
+    // AMOROSOS CON LA MADRE TIERRA
+    #home__text-6 {
+        font-size: 3.7rem;
+        letter-spacing: 0.55rem;
+        font-weight: 200;
+    }
+    //// SECCION 2
+    .image__title-1 h3 {
+        letter-spacing: .4px;
+        font-size: 3rem;
+        font-family: $manifiesto-font-2;
+        font-weight: 400;
+        opacity: .9;
+    }
 // #home__text-3 {
 //     letter-spacing: 0.4rem;
 //     font-size: 2.3rem;

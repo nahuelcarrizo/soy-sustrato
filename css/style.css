@@ -11988,7 +11988,44 @@ div[id^=home__text-] {
 
 @media (min-width: 768px) {
   #text__wrapper-2 {
-    width: 650px;
+    width: 51rem;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  #home__text-3 {
+    display: block;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    order: 0;
+    letter-spacing: 0.3rem;
+    font-size: 4.8rem;
+  }
+
+  #home__text-4 {
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    padding: 6px 0;
+  }
+
+  #home__text-5 {
+    font-size: 3.3rem;
+    letter-spacing: 0.4rem;
+  }
+
+  #home__text-7 {
+    letter-spacing: 0.35rem;
+    font-size: 5rem;
+    flex-basis: fill;
+  }
+
+  #home__text-6 {
+    font-size: 3.7rem;
+    letter-spacing: 0.55rem;
+    font-weight: 200;
   }
 
   .image__title-1 h3 {
