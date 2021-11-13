@@ -11578,10 +11578,16 @@ footer .offcanvas__item {
 }
 
 .footer__link {
-  padding: 10px 5px;
   color: #fff !important;
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer__wrapper-1 {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -11677,6 +11683,11 @@ input::placeholder {
 }
 
 @media (min-width: 768px) {
+  .footer__wrapper-1 {
+    display: block;
+    align-items: flex-start;
+  }
+
   #accordion-footer {
     display: none;
   }
@@ -11684,6 +11695,15 @@ input::placeholder {
   .d-yes {
     display: flex;
     flex-direction: column;
+  }
+
+  footer p {
+    font-size: 1.4rem;
+  }
+
+  .footer__link {
+    font-size: 1rem;
+    letter-spacing: 0.1;
   }
 }
 .mainContent {

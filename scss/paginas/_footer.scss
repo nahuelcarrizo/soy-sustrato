@@ -34,11 +34,16 @@ footer .offcanvas__item {
     border: none;
 }
 .footer__link {
-    padding: 10px 5px;
     color: #fff !important;
     text-decoration: none;
     // background: 0 0;
     cursor: pointer;
+}
+.footer__wrapper-1 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: space-between
 }
 .footer__logo {
     width: 12.3rem;
@@ -63,6 +68,7 @@ footer svg path {
 .footer__social {
     flex: 1 1 auto;
     text-align: right;
+
 }
 .footer__social li {
     margin: 0 0 0 15px;
@@ -143,12 +149,22 @@ input::placeholder{
     display: none;
 }
 @media (min-width: 768px) {
-
+    .footer__wrapper-1 {
+        display: block;
+        align-items: flex-start;
+    }
     #accordion-footer{
         display: none;
     }
     .d-yes {
         display: flex;
         flex-direction: column;
+    }
+    footer p {
+        font-size: 1.4rem;
+    }
+    .footer__link {
+        font-size: 1rem;
+        letter-spacing: .1;
     }
 }
