@@ -289,6 +289,7 @@ div[id^='home__text-']{
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    // Texto bienvenida
     #text__wrapper-2 {
         width: 51rem;
         display: inline-flex;
@@ -333,31 +334,11 @@ div[id^='home__text-']{
     }
     //// SECCION 2
     .image__title-1 h3 {
-        letter-spacing: .4px;
         font-size: 3rem;
-        font-family: $manifiesto-font-2;
-        font-weight: 400;
-        opacity: .9;
     }
-// #home__text-3 {
-//     letter-spacing: 0.4rem;
-//     font-size: 2.3rem;
-// }
-// // PARA CREAR
-// #home__text-5 {
-//     font-size: 2rem;
-//     letter-spacing: .22rem;
-// }
-// // PACKACKING
-// #home__text-7 {
-//     letter-spacing: 0.4rem;
-//     font-size: 2.3rem;
-//     padding-left: 35px;
-// }
 }
 /* Medium devices (desktop) */
 @media (min-width: 992px) {
-
     .image__wrapper-1 {
         height:100vh;
     }
@@ -367,42 +348,40 @@ div[id^='home__text-']{
         width: 100%;
         height: 100%;
     }
-    #text__wrapper-2 {
-        padding: 0 0.2rem;
-        width: 700px;
-    }
     div[id^='home__text-']{
         display: inline-block;
     }
-    // INSUMOS
+    #text__wrapper-2 {
+        width: 55rem;
+    }
+    // insumos
     #home__text-3 {
-        letter-spacing: 0.4rem;
-        font-size: 2.65rem;
+        letter-spacing: .3rem;
+        font-size: 4.8rem;
     }
     // SUSTENTABLES+BIODEGRADABLES+COMPOSTABLES
     #home__text-4 {
-        font-size: 1.55rem;
-        letter-spacing: .09rem;
-        padding: 6px 0;
+        font-size: 2.3rem;
+        letter-spacing: .25rem;
     }
     // PARA CREAR
     #home__text-5 {
-        font-size: 2.4rem;
-        letter-spacing: .24rem;
+        font-size: 3.4rem;
+        letter-spacing: .5rem;
     }
     // PACKACKING
     #home__text-7 {
         letter-spacing: 0.4rem;
-        font-size: 2.65rem;
-        // padding-left: 45px;
+        font-size: 5.4rem;
+        flex-basis: fill;
+        // padding-left: 19px;
     }
     // AMOROSOS CON LA MADRE TIERRA
     #home__text-6 {
-        font-size: 2.7rem;
-        letter-spacing: 0.27rem;
+        font-size: 4rem;
+        letter-spacing: 0.6rem;
         font-weight: 200;
     }
-
     //// SECCION 2
     #section2-index {
         height: 124rem;
@@ -414,5 +393,4 @@ div[id^='home__text-']{
     .image__wrapper-3 img {
         height: 620px;
     }
-
 }
