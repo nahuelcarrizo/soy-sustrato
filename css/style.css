@@ -12072,19 +12072,11 @@ header {
   top: 0;
   padding: 5px 0;
   display: block;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0, transparent);
   height: 5.7rem;
 }
 
-.header--index {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#header__row {
-  flex-wrap: nowrap;
-  padding: 0 10px;
+#header-index {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0, transparent);
 }
 
 #header-logo {
