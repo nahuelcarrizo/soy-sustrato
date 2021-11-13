@@ -12062,20 +12062,6 @@ div[id^=home__text-] {
   }
 }
 /* HEADER */
-.header__wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 6;
-  background: 0 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0, transparent);
-}
-
-.header-item {
-  height: 57px;
-}
-
 header {
   background: 0 0;
   border-bottom: 0;
@@ -12086,6 +12072,8 @@ header {
   top: 0;
   padding: 5px 0;
   display: block;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0, transparent);
+  height: 5.7rem;
 }
 
 .header--index {
@@ -12115,6 +12103,12 @@ header {
   color: white;
   font-weight: 400;
   display: none;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.navbar__desktop ul li {
+  margin-left: 1rem;
 }
 
 .navbar-list {
