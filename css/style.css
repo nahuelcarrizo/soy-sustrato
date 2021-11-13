@@ -11306,12 +11306,6 @@ html {
   top: 1px;
 }
 
-header button path {
-  stroke: white;
-  stroke-width: 3px;
-  stroke-opacity: 0.9;
-}
-
 .h-100vh {
   height: 100vh !important;
 }
@@ -12105,6 +12099,19 @@ header {
   padding: 5px 0;
   display: block;
   height: 5.7rem;
+}
+
+header button path {
+  stroke-width: 3px;
+  stroke-opacity: 0.9;
+}
+
+.navbar-dark button path {
+  stroke: white;
+}
+
+.navbar-light button path {
+  stroke: black;
 }
 
 #header-index {

@@ -14,6 +14,16 @@ header {
     display: block;
     height: 5.7rem;
 }
+header button path {
+    stroke-width: 3px;
+    stroke-opacity: 0.9;
+}
+.navbar-dark button path {
+    stroke: rgb(255, 255, 255);
+}
+.navbar-light button path {
+    stroke: rgb(0,0,0);
+}
 #header-index {
 background: linear-gradient(180deg,rgba(0,0,0,.3) 0,transparent);
 }
