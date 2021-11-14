@@ -2,6 +2,7 @@
 
 footer {
     font-family: $open-sans;
+    background-color: black;
 }
 footer a {
     color: white;
@@ -16,9 +17,7 @@ footer p {
     letter-spacing: 3px;
     margin-bottom: 0.5rem;
 }
-.accordion-button {
-    font-size: 1.5rem;
-}
+
 #footer-sumate {
     font-size: .5rem;
     letter-spacing: 1.2px;
@@ -46,12 +45,7 @@ footer .offcanvas__item {
     justify-content: space-between
 }
 .footer__logo {
-    width: 12.3rem;
-    height: 4.1rem;
-    z-index: 99;
-}
-#footer-color {
-    background-color: black;
+    width: 8rem;
 }
 
 footer svg path {
@@ -109,7 +103,7 @@ input::placeholder{
     align-items: center;
 }
 .icon-email {
-    width: 26px;
+    width: 25px;
     height: 26px;
     overflow: hidden;
     display: inline-block;

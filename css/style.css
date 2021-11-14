@@ -11134,10 +11134,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  font-size: 62.5%;
-}
-
 #index__title--1 {
   font-size: 2rem;
   color: whitesmoke;
@@ -11534,6 +11530,7 @@ form h5, form .h5 {
 }
 footer {
   font-family: "Open Sans", sans-serif;
+  background-color: black;
 }
 
 footer a {
@@ -11548,10 +11545,6 @@ footer p {
   font-size: 0.7rem;
   letter-spacing: 3px;
   margin-bottom: 0.5rem;
-}
-
-.accordion-button {
-  font-size: 1.5rem;
 }
 
 #footer-sumate {
@@ -11586,13 +11579,7 @@ footer .offcanvas__item {
 }
 
 .footer__logo {
-  width: 12.3rem;
-  height: 4.1rem;
-  z-index: 99;
-}
-
-#footer-color {
-  background-color: black;
+  width: 8rem;
 }
 
 footer svg path {
@@ -11657,7 +11644,7 @@ input::placeholder {
 }
 
 .icon-email {
-  width: 26px;
+  width: 25px;
   height: 26px;
   overflow: hidden;
   display: inline-block;
@@ -11769,27 +11756,26 @@ div[id^=home__text-] {
 
 #home__text-3 {
   letter-spacing: 3px;
-  font-size: 3.7rem;
+  font-size: 2.1rem;
 }
 
 #home__text-4 {
-  font-size: 1.6rem;
-  letter-spacing: 0.075rem;
+  font-size: 1.12rem;
   padding: 6px 0;
 }
 
 #home__text-5 {
-  font-size: 2.2rem;
+  font-size: 1.3rem;
   letter-spacing: 0.22rem;
 }
 
 #home__text-7 {
-  letter-spacing: 0.25rem;
-  font-size: 3.7rem;
+  letter-spacing: 0.27rem;
+  font-size: 2.1rem;
 }
 
 #home__text-6 {
-  font-size: 2.8rem;
+  font-size: 1.5rem;
   letter-spacing: 0.25rem;
   font-weight: 200;
 }
@@ -12209,7 +12195,6 @@ header button path {
 }
 
 .offcanvas__link {
-  font-size: 1.8rem;
   font-weight: 400;
   padding: 0.8rem;
 }
@@ -12337,7 +12322,7 @@ header button path {
 .product__link h1 {
   color: whitesmoke;
   font-family: "Handlee", cursive;
-  font-size: 2.9rem;
+  font-size: 1.9rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
   text-align: left;
@@ -12383,7 +12368,7 @@ header button path {
 .product__link div img {
   width: 100%;
   min-width: 77.75px;
-  height: 28rem;
+  height: 17rem;
   position: relative;
 }
 
@@ -12470,10 +12455,6 @@ header button path {
 @media (min-width: 768px) {
   .links-index {
     width: auto;
-  }
-
-  #section2__image--3 {
-    background-position: top;
   }
 }
 /* Medium devices (desktop) */
