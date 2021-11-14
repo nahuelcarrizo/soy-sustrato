@@ -26,7 +26,7 @@
 .product__container-title {
   position: absolute;
   bottom: 2.5rem;
-  z-index: 10;
+  z-index: 4;
   left: 2rem;
 }
 
@@ -38,9 +38,7 @@
   letter-spacing: .2rem;
   text-align: left;
 }
-#img-flexibles {
-  transform: scale(1.2);
-}
+
 
 .product__link div:nth-child(2)::before {
   // background-image: linear-gradient(0deg, rgba(255,255,255,0.9) 0%, rgba(0,0,0,0.2) 5%, rgba(255,255,255,0.9) 95%);
@@ -89,16 +87,7 @@
   min-width: 77.75px;
   height: 28rem;
   position: relative;
-  transform: scale(1.05);
 }
-.img-cubo {
-  width: 90%;
-  min-width: 80px;
-  height: 255px;
-  position: relative;
-  transform: scale(1.2);
-}
-
 
 // Modals
 
@@ -197,7 +186,10 @@
       margin-top: 10%;
       margin-bottom: 15%;
     }
-  
+    
+    #section1-shp row {
+      margin: 3rem;
+    }
     .product__image--vianda {
       background-size: 430px 480px;
     }

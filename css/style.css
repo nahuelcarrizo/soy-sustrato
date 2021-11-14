@@ -11653,6 +11653,7 @@ input::placeholder {
   display: inline-block;
   overflow: visible;
   background: 0 0;
+  align-items: center;
 }
 
 .icon-email {
@@ -12150,10 +12151,6 @@ header button path {
   flex-direction: row;
 }
 
-.zindex-offcanvas {
-  z-index: 1065;
-}
-
 .offcanvas__btn-close {
   padding-right: 1rem;
 }
@@ -12333,7 +12330,7 @@ header button path {
 .product__container-title {
   position: absolute;
   bottom: 2.5rem;
-  z-index: 10;
+  z-index: 4;
   left: 2rem;
 }
 
@@ -12344,10 +12341,6 @@ header button path {
   font-weight: 400;
   letter-spacing: 0.2rem;
   text-align: left;
-}
-
-#img-flexibles {
-  transform: scale(1.2);
 }
 
 .product__link div:nth-child(2)::before {
@@ -12392,15 +12385,6 @@ header button path {
   min-width: 77.75px;
   height: 28rem;
   position: relative;
-  transform: scale(1.05);
-}
-
-.img-cubo {
-  width: 90%;
-  min-width: 80px;
-  height: 255px;
-  position: relative;
-  transform: scale(1.2);
 }
 
 .animation__up-modals {
@@ -12507,6 +12491,10 @@ header button path {
   #section1-shp {
     margin-top: 10%;
     margin-bottom: 15%;
+  }
+
+  #section1-shp row {
+    margin: 3rem;
   }
 
   .product__image--vianda {
