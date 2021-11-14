@@ -12391,7 +12391,7 @@ header button path {
 
 .modal h3 {
   font-family: "DM Serif Text", sans-serif;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #24272a;
   font-style: italic;
@@ -12408,6 +12408,11 @@ header button path {
   object-fit: cover;
   z-index: 1000;
   height: 16rem;
+}
+
+#carouselExampleControls2 img {
+  height: 12rem;
+  margin-top: 1rem;
 }
 
 .modal-content > button {
