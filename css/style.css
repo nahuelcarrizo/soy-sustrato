@@ -639,8 +639,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.25rem);
+  padding-left: var(--bs-gutter-x, 0.25rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -671,7 +671,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 0.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -4537,7 +4537,7 @@ textarea.form-control-lg {
 }
 
 .card-group > .card {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 @media (min-width: 576px) {
   .card-group {
@@ -5351,7 +5351,7 @@ textarea.form-control-lg {
   pointer-events: none;
 }
 .toast-container > :not(:last-child) {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 
 .toast-header {
@@ -12316,7 +12316,6 @@ header button path {
 }
 
 .shop__container-1 {
-  display: grid;
   margin: 4rem 0.1rem;
 }
 
@@ -12495,58 +12494,14 @@ header button path {
 }
 /* Medium devices (desktop) */
 @media (min-width: 992px) {
-  .index__section2-row {
-    display: grid;
-    grid-template-areas: "grid-area-1 grid-area-2 grid-area-2" "grid-area-3 grid-area-3 grid-area-4";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 250px;
-    grid-row-gap: 2px;
-    position: relative;
-  }
-
-  .index__section2-col1 {
-    grid-area: grid-area-1;
-    position: relative;
-  }
-
-  .index__section2-col2 {
-    grid-area: grid-area-2;
-    position: relative;
-  }
-
-  .index__section2-col3 {
-    grid-area: grid-area-3;
-    position: relative;
-  }
-
-  .index__section2-col4 {
-    grid-area: grid-area-4;
-    position: relative;
-  }
-
-  .image-fit {
-    width: 50%;
+  /* SHOP */
+  #section1-shp {
+    padding-top: 3%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-family: "Monotype Sabon";
   }
 }
-@font-face {
-  font-family: "Monotype Sabon";
-  src: url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.eot");
-  src: url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.woff") format("woff"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.svg#Monotype Sabon") format("svg");
-}
-@font-face {
-  font-family: "Sans";
-  src: url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot");
-  src: url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff") format("woff"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.svg#Sans") format("svg");
-}
-/* SHOP */
-#section1-shp {
-  padding-top: 3%;
-  overflow: hidden;
-  margin-bottom: 30px;
-  font-family: "Monotype Sabon";
-}
-
-/* Medium devices (tablets, 768px and up) */
 /* Medium devices (desktop) */
 @media (min-width: 992px) {
   #section1-shp {

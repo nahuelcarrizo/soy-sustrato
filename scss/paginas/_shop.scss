@@ -10,7 +10,6 @@
 }
 
 .shop__container-1 {
-  display: grid;
   margin: 4rem 0.1rem;
 }
 .product__link {
@@ -42,36 +41,7 @@
 #img-flexibles {
   transform: scale(1.2);
 }
-// .product__link img {
-//   border-bottom-color: rgb(36, 39, 42);
-//   border-bottom-style: none;
-//   border-bottom-width: 0px;
-//   border-image-outset: 0;
-//   border-image-repeat: stretch;
-//   border-image-slice: 100%;
-//   border-image-source: none;
-//   border-image-width: 1;
-//   border-left-color: rgb(36, 39, 42);
-//   border-left-style: none;
-//   border-left-width: 0px;
-//   border-right-color: rgb(36, 39, 42);
-//   border-right-style: none;
-//   border-right-width: 0px;
-//   border-top-color: rgb(36, 39, 42);
-//   border-top-style: none;
-//   border-top-width: 0px;
-//   box-sizing: border-box;
-//   color: rgb(36, 39, 42);
-//   display: inline-block;
-//   font-family: "Gill sans", Arial, sans-serif;
-//   font-size: 16px;
-//   letter-spacing: 0.8px;
-//   line-height: 27.2px;
 
-//   object-fit: cover;
-//   text-align: center;
-//   vertical-align: middle;
-// }
 .product__link div:nth-child(2)::before {
   // background-image: linear-gradient(0deg, rgba(255,255,255,0.9) 0%, rgba(0,0,0,0.2) 5%, rgba(255,255,255,0.9) 95%);
   content: "";
@@ -144,8 +114,6 @@
 .modal-header {
   border: none;
 }
-
-
 .modal-height {
   height: 600px;
   background-image: url(../imgs/shop/modals/modal-bg-2.png);
@@ -153,7 +121,6 @@
   background-size: contain;
   background-position: 0px 300px;
 }
-
 .modal-content div {
   z-index: 10;
 }
@@ -214,48 +181,7 @@
   }
   /* Medium devices (desktop) */
   @media (min-width: 992px) {
-    .index__section2-row {
-      display: grid;
-      grid-template-areas: "grid-area-1 grid-area-2 grid-area-2" "grid-area-3 grid-area-3 grid-area-4";
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 250px;
-      grid-row-gap: 2px;
-      position: relative;
-    }
-    .index__section2-col1 {
-      grid-area: grid-area-1;
-      position: relative;
-    }
-  
-    .index__section2-col2 {
-      grid-area: grid-area-2;
-      position: relative;
-    }
-  
-    .index__section2-col3 {
-      grid-area: grid-area-3;
-      position: relative;
-    }
-  
-    .index__section2-col4 {
-      grid-area: grid-area-4;
-      position: relative;
-    }
-  
-    .image-fit {
-      width: 50%;
-    }
-  }
-  @font-face {
-    font-family: "Monotype Sabon";
-    src: url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.eot");
-    src: url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.woff") format("woff"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f6a976a2bc80fd96b873575f9b7dfee2.svg#Monotype Sabon") format("svg");
-  }
-  @font-face {
-    font-family: "Sans";
-    src: url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot");
-    src: url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff") format("woff"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.svg#Sans") format("svg");
-  }
+
   /* SHOP */
   #section1-shp {
     padding-top: 3%;
@@ -263,11 +189,8 @@
     margin-bottom: 30px;
     font-family: "Monotype Sabon";
   }
+}
 
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-
-  }
   /* Medium devices (desktop) */
   @media (min-width: 992px) {
     #section1-shp {
@@ -310,5 +233,5 @@
     .product__image--doypackm {
       background-size: 430px 480px;
     }
-  }
-  
+}
+
