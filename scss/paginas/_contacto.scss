@@ -49,7 +49,7 @@ form h5, form .h5 {
   color: var(--primary);
   box-shadow: -4px 4px 0 white;
 }
-.btn {
+.btn-1 {
   border-radius: 90px;
   letter-spacing: 1.25px;
   block-size: 50px;
@@ -64,19 +64,19 @@ form h5, form .h5 {
   padding: 0 1.5em;
   color: white;
 }
-.btn.full {
+.btn-1.full {
   width: 100%;
 }
-.btn.primary {
+.btn-1.primary {
   background: var(--primary);
 }
-.btn i {
+.btn-1 i {
   display: inline-block;
 }
-.btn span {
+.btn-1 span {
   vertical-align: middle;
 }
-.btn i img {
+.btn-1 i img {
   vertical-align: middle;
 }
 .form label {

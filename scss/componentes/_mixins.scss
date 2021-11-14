@@ -34,8 +34,8 @@ background: linear-gradient(
     animation-name: rise-up-1;
 }
 @mixin animation-up-2 {
-    animation: 2.5s cubic-bezier(.26,.54,.32,1) forwards;
-    opacity: 0;
+    animation: 1s cubic-bezier(.26,.54,.32,1) forwards;
+    opacity: .6;
     animation-name: rise-up-2;
 }
 @mixin animation-down-1 {

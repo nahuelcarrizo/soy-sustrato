@@ -11177,8 +11177,8 @@ textarea.form-control-lg {
 }
 @keyframes rise-up-2 {
   0% {
-    opacity: 0;
-    transform: translateY(5%);
+    opacity: 0.6;
+    transform: translateY(10%);
   }
   to {
     opacity: 1;
@@ -11371,7 +11371,7 @@ form h5, form .h5 {
   box-shadow: -4px 4px 0 white;
 }
 
-.btn {
+.btn-1 {
   border-radius: 90px;
   letter-spacing: 1.25px;
   block-size: 50px;
@@ -11387,23 +11387,23 @@ form h5, form .h5 {
   color: white;
 }
 
-.btn.full {
+.btn-1.full {
   width: 100%;
 }
 
-.btn.primary {
+.btn-1.primary {
   background: var(--primary);
 }
 
-.btn i {
+.btn-1 i {
   display: inline-block;
 }
 
-.btn span {
+.btn-1 span {
   vertical-align: middle;
 }
 
-.btn i img {
+.btn-1 i img {
   vertical-align: middle;
 }
 
@@ -12337,8 +12337,8 @@ header button path {
 }
 
 .animation__up-modals {
-  animation: 2.5s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
-  opacity: 0;
+  animation: 1s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
+  opacity: 0.6;
   animation-name: rise-up-2;
   animation-delay: 0.1s;
 }
@@ -12378,13 +12378,20 @@ header button path {
 
 .modal a {
   color: #24272a;
-  z-index: 100;
-  justify-content: space-between;
+  z-index: 1000;
+}
+
+.modal a span {
+  z-index: 1002;
+}
+
+.modal button {
+  z-index: 1000;
 }
 
 .modal h3 {
   font-family: "DM Serif Text", sans-serif;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #24272a;
   font-style: italic;
@@ -12397,22 +12404,25 @@ header button path {
   color: #24272a;
 }
 
+.carousel-item img {
+  object-fit: cover;
+  z-index: 1000;
+  height: 16rem;
+}
+
 .modal-content > button {
   border: none;
   background-color: #33373b;
   position: absolute;
-  bottom: 10px;
+  bottom: 2rem;
   left: 0;
   right: 0;
   margin: auto;
-  max-width: 150px;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 200;
   z-index: 20;
-}
-.modal-content > button:hover {
-  color: white !important;
-  transform: scale(1.05);
+  padding: 0.7rem 1.5rem;
+  font-family: "Roboto Slab", serif;
 }
 
 /* Medium devices (tablets, 768px and up) */
