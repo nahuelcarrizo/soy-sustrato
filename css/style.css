@@ -12261,6 +12261,11 @@ header button path {
   margin-bottom: 10%;
 }
 
+#shop__text-1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.3rem;
+}
+
 .shop__container-1 {
   margin: 4rem 0.1rem;
 }
