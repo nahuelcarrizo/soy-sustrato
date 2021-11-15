@@ -39,11 +39,11 @@ background: linear-gradient(180deg,rgba(0,0,0,.3) 0,transparent);
     display: flex;
 }
 .navbar__desktop {
-    font-family: $comic;
+    font-family: $manifiesto-font-2;
     color: white;
     font-weight: 400;
     display: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: .1rem;
 }
 .navbar__desktop ul li {

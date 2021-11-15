@@ -12102,11 +12102,11 @@ header button path {
 }
 
 .navbar__desktop {
-  font-family: "Comic Neue", cursive;
+  font-family: "Cinzel", serif;
   color: white;
   font-weight: 400;
   display: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
 }
 
@@ -12517,7 +12517,7 @@ header button path {
     margin-bottom: 4rem;
   }
 }
-.section-404 {
+.section_404 {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12525,12 +12525,12 @@ header button path {
   align-items: center;
 }
 
-#error-text-1 {
+.error-text-1 {
   font-family: "Playfair Display", serif;
   font-size: 2.7rem;
 }
 
-#error-text-2 {
+.error-text-2 {
   font-family: "Cinzel", serif;
   font-size: 1rem;
   color: black;
