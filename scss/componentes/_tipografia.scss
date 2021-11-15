@@ -23,12 +23,11 @@ $comic: 'Comic Neue', cursive;
 $kalam: 'Kalam', cursive;
 $handlee: 'Handlee', cursive;
 
+// index
 #index__title--1 {
     font-size: 2rem;
     color: whitesmoke;
 }
-
-
 // nosotros
 #nosotros__text-1 {
     font-family: $nosotros-font-1;
@@ -39,22 +38,17 @@ $handlee: 'Handlee', cursive;
 }
 
 // faqs
-
 #faqs__text-1 {
     font-family: $nosotros-font-1;
     font-size: 3rem;
 }
 
 // SHOP
-
-
-  
-  .product__title--2 {
+.product__title--2 {
     font-size: 1rem;
     color: #413c3c;
     padding-left: 20px;
-  }
-
+}
 .modal__text-1 {
     font-family: "Playfair Display", sans-serif;
     font-size: 2.7rem;

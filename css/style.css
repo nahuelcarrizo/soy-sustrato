@@ -11391,7 +11391,7 @@ form h5, form .h5 {
 }
 
 .btn-1.primary {
-  background: var(--primary);
+  background: transparent;
 }
 
 .btn-1 i {
@@ -11532,10 +11532,9 @@ form h5, form .h5 {
   }
 }
 footer {
-  font-family: "Open Sans", sans-serif;
   background-color: black;
+  font-family: "Open Sans", sans-serif;
 }
-
 footer a {
   color: white;
   line-height: 12px !important;
@@ -11543,29 +11542,25 @@ footer a {
   text-decoration: none;
   letter-spacing: 1.2px;
 }
-
 footer p {
   font-size: 0.7rem;
   letter-spacing: 3px;
   margin-bottom: 0.5rem;
 }
-
-#footer-sumate {
-  font-size: 0.5rem;
-  letter-spacing: 1.2px;
-}
-
 footer span {
   margin-bottom: 0.5rem;
 }
-
 footer ul {
   list-style: none;
   padding-left: 0;
 }
-
-footer .offcanvas__item {
+footer.offcanvas__item {
   border: none;
+}
+
+#footer-sumate {
+  font-size: 0.5rem;
+  letter-spacing: 1.2px;
 }
 
 .footer__social ul {
@@ -12385,20 +12380,16 @@ header button path {
   margin: 0 6px;
   color: #24272a;
 }
-
 .modal a {
   color: #24272a;
   z-index: 1000;
 }
-
 .modal a span {
   z-index: 1002;
 }
-
 .modal button {
   z-index: 1000;
 }
-
 .modal h3 {
   font-family: "DM Serif Text", sans-serif;
   font-size: 1.3rem;
@@ -12406,7 +12397,6 @@ header button path {
   color: #24272a;
   font-style: italic;
 }
-
 .modal h4 {
   font-family: "Gill Sans", sans-serif;
   font-size: 1rem;

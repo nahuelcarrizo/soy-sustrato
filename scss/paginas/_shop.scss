@@ -97,39 +97,40 @@
   padding: 0 !important;
   max-height: 100%;
 }
-.modal i {
+.modal {
+  & i {
   font-size: 1.6rem;
   margin: 0 6px;
   color: #24272a;
-}
-.modal a {
+  }
+  & a {
   color: #24272a;
   z-index: 1000;
-}
-.modal a span {
+  }
+  & a span {
   z-index: 1002;
-}
-.modal button {
+  }
+  & button {
   z-index: 1000;
-}
-.modal h3 {
+  }
+  & h3 {
   font-family: $dm-text;
   font-size: 1.3rem;
   font-weight: 400;
   color: #24272a;
   font-style: italic;
-}
-.modal h4 {
+  }
+  & h4 {
   font-family:'Gill Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #24272a;
+  }
 }
 .carousel-item img {
   object-fit: cover;
   z-index: 1000;
   height: 16rem;
-  // width: 100px;
 }
 #carouselExampleControls2 img {
   height: 12rem;

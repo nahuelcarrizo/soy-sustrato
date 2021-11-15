@@ -1,37 +1,36 @@
 @use '../componentes/tipografia' as *;
 
 footer {
-    font-family: $open-sans;
     background-color: black;
+    font-family: $open-sans;
+    & a {
+        color: white;
+        line-height: 12px !important;
+        font-size: .7rem;
+        text-decoration: none;
+        letter-spacing: 1.2px;
+    }
+    & p {
+        font-size: .7rem;
+        letter-spacing: 3px;
+        margin-bottom: 0.5rem;
+    }
+    & span {
+        margin-bottom: 0.5rem;
+    }
+    & ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    &.offcanvas__item {
+        border: none;
+    }
 }
-footer a {
-    color: white;
-    line-height: 12px !important;
-    font-size: .7rem;
-    text-decoration: none;
-    letter-spacing: 1.2px;
-}
-
-footer p {
-    font-size: .7rem;
-    letter-spacing: 3px;
-    margin-bottom: 0.5rem;
-}
-
 #footer-sumate {
     font-size: .5rem;
     letter-spacing: 1.2px;
 }
-footer span {
-    margin-bottom: 0.5rem;
-}
-footer ul {
-    list-style: none;
-    padding-left: 0;
-}
-footer .offcanvas__item {
-    border: none;
-}
+
 .footer__social {
     & ul {
         justify-content: flex-end;
