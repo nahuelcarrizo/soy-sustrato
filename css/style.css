@@ -11827,6 +11827,10 @@ div[id^=home__text-] {
 }
 
 .image__wrapper-3 {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
   opacity: 1;
   position: relative;
 }
@@ -11839,6 +11843,19 @@ div[id^=home__text-] {
   left: 0;
   z-index: auto;
   background: #000;
+}
+.image__wrapper-3::after {
+  opacity: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.62) 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: auto;
+  opacity: 1;
+  background-color: black;
 }
 
 .image__wrapper-3 img {
