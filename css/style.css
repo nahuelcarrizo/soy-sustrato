@@ -11177,7 +11177,7 @@ textarea.form-control-lg {
 }
 @keyframes rise-up-2 {
   0% {
-    opacity: 0.6;
+    opacity: 0;
     transform: translateY(10%);
   }
   to {
@@ -12343,7 +12343,7 @@ header button path {
 
 .animation__up-modals {
   animation: 1s cubic-bezier(0.26, 0.54, 0.32, 1) forwards;
-  opacity: 0.6;
+  opacity: 0;
   animation-name: rise-up-2;
   animation-delay: 0.1s;
 }
