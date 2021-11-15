@@ -12086,7 +12086,7 @@ header button path {
   color: white;
   font-weight: 400;
   display: none;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   letter-spacing: 0.1rem;
 }
 
@@ -12274,6 +12274,7 @@ header button path {
   text-decoration-line: none;
   text-decoration-style: solid;
   width: 100%;
+  cursor: pointer;
 }
 
 .product__container-title {
@@ -12292,16 +12293,6 @@ header button path {
   text-align: left;
 }
 
-.product__link div:nth-child(2)::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 3;
-}
-
 .product__link div:nth-child(2)::after {
   content: "";
   position: absolute;
@@ -12311,18 +12302,7 @@ header button path {
   bottom: 0;
   z-index: 3;
   background-color: #000;
-  opacity: 0.3;
-}
-.product__link div:nth-child(2):active::after {
-  opacity: 0;
-}
-.product__link div:nth-child(2):hover::after {
-  opacity: 0;
-}
-.product__link div:nth-child(2):hover.product__link h1 {
-  font-family: "Playfair Display", sans-serif;
-  font-size: 2.5rem;
-  letter-spacing: 4px;
+  opacity: 0.1;
 }
 
 .carousel-inner {
@@ -12435,6 +12415,39 @@ header button path {
   .links-index {
     width: auto;
   }
+
+  .product__link div:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+  }
+
+  .product__link div:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #000;
+    opacity: 0.3;
+  }
+  .product__link div:nth-child(2):active::after {
+    opacity: 0;
+  }
+  .product__link div:nth-child(2):hover::after {
+    opacity: 0;
+  }
+  .product__link div:nth-child(2):hover.product__link h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+  }
 }
 /* Medium devices (desktop) */
 @media (min-width: 992px) {
@@ -12444,11 +12457,6 @@ header button path {
     overflow: hidden;
     margin-bottom: 30px;
     font-family: "Monotype Sabon";
-  }
-}
-/* Medium devices (desktop) */
-@media (min-width: 992px) {
-  #section1-shp {
     margin-top: 10%;
     margin-bottom: 15%;
   }
@@ -12457,40 +12465,16 @@ header button path {
     margin: 3rem;
   }
 
-  .product__image--vianda {
-    background-size: 430px 480px;
+  .product__link div:nth-child(2) {
+    height: 37.5rem;
   }
 
-  .product__image--cubo {
-    background-size: 430px 480px;
+  .product__link div img {
+    height: 100%;
   }
 
-  .product__image--tapacubo {
-    background-size: 430px 480px;
-  }
-
-  .product__image--sobrem {
-    background-size: 430px 480px;
-  }
-
-  .product__image--sobres {
-    background-size: 430px 480px;
-  }
-
-  .product__image--sobrexs {
-    background-size: 430px 480px;
-  }
-
-  .product__image--doypackxl {
-    background-size: 430px 480px;
-  }
-
-  .product__image--doypackl {
-    background-size: 430px 480px;
-  }
-
-  .product__image--doypackm {
-    background-size: 430px 480px;
+  .product__link h1 {
+    font-size: 2.7rem;
   }
 }
 
