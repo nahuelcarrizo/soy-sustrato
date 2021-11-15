@@ -12025,33 +12025,33 @@ div[id^=home__text-] {
   }
 
   #text__wrapper-2 {
-    width: 55rem;
+    width: 35rem;
   }
 
   #home__text-3 {
     letter-spacing: 0.3rem;
-    font-size: 4.8rem;
+    font-size: 2.6rem;
   }
 
   #home__text-4 {
-    font-size: 2.3rem;
-    letter-spacing: 0.25rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
   }
 
   #home__text-5 {
-    font-size: 3.4rem;
+    font-size: 1.9rem;
     letter-spacing: 0.5rem;
   }
 
   #home__text-7 {
     letter-spacing: 0.4rem;
-    font-size: 5.4rem;
+    font-size: 5rem;
     flex-basis: fill;
   }
 
   #home__text-6 {
-    font-size: 4rem;
-    letter-spacing: 0.6rem;
+    font-size: 2.8rem;
+    letter-spacing: 0.29rem;
     font-weight: 200;
   }
 
@@ -12516,6 +12516,24 @@ header button path {
     font-size: 1.4rem;
     margin-bottom: 4rem;
   }
+}
+.section-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#error-text-1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+}
+
+#error-text-2 {
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

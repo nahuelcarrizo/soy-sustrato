@@ -1,0 +1,18 @@
+@use '../componentes/tipografia' as *;
+
+.section-404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#error-text-1 {
+  font-family: $nosotros-font-1;
+  font-size: 2.7rem;
+}
+#error-text-2 {
+  font-family: $manifiesto-font-2;
+  font-size: 1rem;
+  color:black;
+}
