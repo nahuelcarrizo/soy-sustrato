@@ -25,7 +25,6 @@
   --bs-gutter-x: 0;
 }
 .form {
-  max-inline-size: 550px;
   margin: auto;
 }
 .contact__text--3 {
@@ -89,11 +88,13 @@ form h5, form .h5 {
   .form label span {
     color: #DA1414;
   }
-  
+  .u-wrapper input::placeholder {
+    font-size: 1rem;
+  }
   .form input, .form textarea {
     box-sizing: border-box;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 0.8em;
     border-radius: 0.5em;
     border: 1px solid #858C94;

@@ -9,11 +9,15 @@
     margin-bottom: 10%;
 }
 #shop__text-1 {
-  font-family: "Playfair Display", serif;
-  font-size: 3.3rem;
+  font-family: $nosotros-font-1;
+  font-size: 2.7rem;
+}
+#shop__text-2 {
+  font-family: $manifiesto-font-2;
+  font-size: 1rem;
 }
 .shop__container-1 {
-  margin: 4rem 0.1rem;
+  margin: 2rem 0;
 }
 .product__link {
   display: block;
@@ -217,6 +221,14 @@
   }
   .product__link h1 {
     font-size: 2.7rem;
+  }
+  #shop__text-1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  #shop__text-2 {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
   }
 }
 

@@ -11341,7 +11341,6 @@ textarea.form-control-lg {
 }
 
 .form {
-  max-inline-size: 550px;
   margin: auto;
 }
 
@@ -11418,10 +11417,14 @@ form h5, form .h5 {
   color: #DA1414;
 }
 
+.u-wrapper input::placeholder {
+  font-size: 1rem;
+}
+
 .form input, .form textarea {
   box-sizing: border-box;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.4rem;
   padding: 0.8em;
   border-radius: 0.5em;
   border: 1px solid #858C94;
@@ -12280,11 +12283,16 @@ header button path {
 
 #shop__text-1 {
   font-family: "Playfair Display", serif;
-  font-size: 3.3rem;
+  font-size: 2.7rem;
+}
+
+#shop__text-2 {
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
 }
 
 .shop__container-1 {
-  margin: 4rem 0.1rem;
+  margin: 2rem 0;
 }
 
 .product__link {
@@ -12497,6 +12505,16 @@ header button path {
 
   .product__link h1 {
     font-size: 2.7rem;
+  }
+
+  #shop__text-1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #shop__text-2 {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
   }
 }
 
